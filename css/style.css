@@ -130,3 +130,130 @@ width: 100%;
 
 /* Запитати Христю як обєднати button, щоб можна було добавити hover на загальну групу */
 
+
+.advantages_section{
+    background: url(../img/bg&polygons\ -\ 2_90+\ games.png) bottom center;
+    background-size: cover;
+    width: 100%;
+}
+
+.our_advantages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ad_text{
+    width: 35%;
+}
+
+.ad_title{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #2A2FA3;
+    margin-top: 100px;
+}
+
+.ad_small_text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 155%;
+    color: #222A3F;
+    width: 90%;
+    margin-top: 40px;
+}
+
+.bold_text{
+    font-weight: 600;
+}
+
+.ad_icon{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    width: 60%;
+}
+
+.game_icon{
+    width: 286px;
+    height: 286px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
+    border-radius: 28px;
+}
+
+.more_info{
+    width: 36px;
+    height: 36px;
+    opacity: 0.8;
+    position: relative;
+    top: -100px;
+    left: 230px;
+}
+
+.polygon{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+}
+
+.vector{
+    position: relative;
+    top: -20px;
+    left: -80px;
+    z-index: 2;
+}
+
+.first_vector{
+    left: -65px;
+}
+
+.first_group{
+    top: -15px;
+    left: -70px;
+}
+
+.second_group{
+    left: -70px;
+    top: -30px;
+}
+
+.game_icon_text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #222A3F;
+    margin-top: 50px;
+}
+
+.game_icon:first-child{
+    position: relative;
+    left: 120px;
+}
+
+.game_icon:nth-child(2){
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.game_icon:nth-child(3){
+    position: relative;
+    top: 60px;
+}
+
+.game_icon:last-child{
+    position: relative;
+    top: 200px;
+    left: 80px;
+}
+
