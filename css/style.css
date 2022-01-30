@@ -133,7 +133,8 @@ width: 100%;
 
 .advantages_section{
     background: url(../img/bg&polygons\ -\ 2_90+\ games.png) bottom center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat:no-repeat;
     width: 100%;
 }
 
@@ -255,5 +256,191 @@ width: 100%;
     position: relative;
     top: 200px;
     left: 80px;
+}
+
+.game_header{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.game_big_title{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 600;
+    font-size: 170px;
+    line-height: 90%;
+    color: #FFFFFF;
+    margin-top: 215px;
+}
+
+.game_text{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.game_middle{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.game_small_text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.btn_game{
+    width: 253px;
+    height: 66px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 20px 30px;
+}
+
+.fa-eye{
+    color: #2A2FA3 ;
+    font-size: 30px;
+}
+
+.btn_text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #363078;
+    margin-right: 15px;
+}
+
+.game_all{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 210px;
+    
+}
+
+.game_box{
+    width: 310px;
+    height: 344px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
+    border-radius: 30px;
+}
+
+.game_img{
+    width: 250px;
+    height: 350px;
+    background: url(bath-trouble-bg-1.jpg);
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -130px;
+}
+
+.rating{
+    position: relative;
+    top: -325px;
+    left: 50px;
+    height: 42px;
+    width: 54px;
+    border-radius: 14px;
+    background: #363078;
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.btn_container{
+    width: 255px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.btn_game_box{
+    background: #FFFFFF;
+    border: 2px solid #F2F4F9;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    padding: 10px 10px 12px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #9594AA;
+}
+
+.game_box:nth-child(2){
+    height: 310px;
+    width: 290px;
+    margin-top: -20px;
+}
+
+.game_box:nth-child(4){
+    height: 310px;
+    width: 290px;
+    margin-top: -20px;
+}
+
+
+
+.game_second_img{
+    width: 230px;
+    height: 315px;
+}
+
+.second_rating{
+    top: -285px;
+}
+
+.second_dtn_container{
+justify-content: center;
+}
+
+.all_btn_footer_game{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 70px;
+    padding-bottom: 300px;
+}
+
+.btn_game_footer{
+    width: 94px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    border: none;
+}
+
+.button_footer{
+    font-size: 33px;
+    color: #4659FF; 
 }
 
