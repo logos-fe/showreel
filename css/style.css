@@ -678,6 +678,62 @@ z-index: 2;
     margin: 0 auto;
 }
 
+.warranty{
+    width: 100%;
+    background: url(../img/Vector\ 18.png) center left no-repeat;
+    background-size: inherit;
+}
+
+.container_warranty{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto 0;
+}
+
+.left_section{
+    width: 50%;
+}
+
+.bold_title{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 170px;
+    line-height: 90%;
+    color: #2F73F6;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 200px;
+}
+
+.warranty_title{
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 22%;
+    color: #2F73F6;
+}
+
+.text_warranty{
+    margin-top: 100px;
+    
+}
+
+.warranty_icon{
+    position: relative;
+    left: 30px;
+}
+
+.warranty_icon:last-child{
+    position: relative;
+    left: 350px;
+    top: -130px;
+}
+
+
+
+
+
 
 
 
