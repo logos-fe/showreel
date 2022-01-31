@@ -132,6 +132,17 @@ width: 100%;
     color: #4659FF;
 }
 
+.links{
+    width: 45px;
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 80px;
+    bottom: 140px;
+}
+
 /* Запитати Христю як обєднати button, щоб можна було добавити hover на загальну групу */
 
 
@@ -825,7 +836,7 @@ height: 250px;
 .bottom_section{
     width: 100%;
     background: url(../img/Union\ l.png) center center no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .drive_header{
@@ -939,6 +950,7 @@ height: 250px;
     background: linear-gradient(97.95deg, #1F5DEA 14.71%, #5C16CE 90.23%);
     border-radius: 40px;
     border: none;
+    margin-top: -20px;
 }
 
 .other_container{
@@ -958,7 +970,7 @@ height: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto 100px;
     padding: 50px;
 }
 
@@ -1030,5 +1042,70 @@ height: 250px;
 }
 
 
+.faq_header{
+    margin-left: -50px;
+}
 
+.faq_list{
+    width: 85%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto 30px;
+}
 
+.faq_item_text{
+    width: 100%;
+    height: 253px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
+    border-radius: 30px;
+}
+
+.faq_item{
+    width: 100%;
+    height: 80px;
+    background: #F2F4F9;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq_box_item_text{
+    width: 100%;
+    display: flex;
+    margin: 40px auto ;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    color: #222A3F;
+}
+
+.faq_dox_item{
+    margin-left: 70px;
+}
+
+.faq_item_title{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 120%;
+    color: #222A3F;
+    margin-left: 40px;
+}
+
+.fa-chevron-down,.fa-chevron-up{
+    width: 14.14px;
+    height: 14.14px;
+    color: #2F73F6;
+    box-sizing: border-box;
+    font-size: 25px;
+    margin-right: 34px;
+}
+
+.faq_button{
+    margin-top: 50px;
+}
