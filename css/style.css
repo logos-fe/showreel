@@ -116,7 +116,7 @@ width: 100%;
     margin-right: 5px;
 }
 
-.fa-long-arrow-right{
+.arrow_long{
     font-size: 25px;
     color: #4659FF;
     margin-left: 4px;
@@ -428,7 +428,8 @@ justify-content: center;
     align-items: center;
     margin-left: 120px;
     margin-top: 70px;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
+    filter: drop-shadow(0px 2px 14px rgba(61, 70, 118, 0.14));
 }
 
 .btn_game_footer{
@@ -443,4 +444,175 @@ justify-content: center;
     font-size: 33px;
     color: #4659FF; 
 }
+
+
+
+
+.type_section{
+    width: 100%;
+    background: url(../img/bg&polygons\ -\ 3_types\ of\ floors.png) top right no-repeat;
+    background-size: contain;
+    margin-top: -150px;
+}
+
+.header_type{
+    width: 85%;
+    margin-left: 40px;
+}
+
+.type_title{
+    text-align: center;
+}
+
+.type_description{
+    font-family: "Dosis",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    text-align: center;
+    color: #222A3F;
+    margin-top: 38px;
+    margin-bottom: 60px;
+}
+
+.btn_type_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn_type{
+    width: 192px;
+    height: 63px;
+    border: 2.5px solid #F2F4F9;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #9A98AF;
+}
+
+.btn_type:first-child{
+    color: #2376F2;
+}
+
+.main_type{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 102px;
+}
+
+.img_type{
+    width: 100%;
+}
+
+.main_img_background{
+    width: 616px;
+    height: 440px;
+    background: #F1F6FE;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.big_img_type{
+position: relative;
+top: -30px;
+left: -5px; 
+z-index: 2;
+}
+
+.arrow{
+    position: relative;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    margin-top: -140px;
+    margin-left: 470px;
+}
+
+.small_img_type{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.small_img_type_box_text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: -100px;
+}
+
+.img_type_footer{
+    margin-top: -80px;
+}
+
+.text_type{
+    width: 85%;
+    margin-top: -50px;
+}
+
+.text_header_type{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    color: #222A3F;
+}
+
+.text_description_type{
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    margin-top: 10px;
+}
+
+.content_list{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.type_list{
+
+}
+
+.type_list_item{
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    margin-bottom: 20px;
+}
+
+.fa-check{
+    color: #2376F2;
+    margin-right: 20px;
+    
+}
+
+
+
 
