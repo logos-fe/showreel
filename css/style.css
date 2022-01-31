@@ -1,3 +1,7 @@
+body{
+    background: #E5E5E5;
+}
+
 .section_header{
     width: 100%;
     height: 1100px;
@@ -614,7 +618,7 @@ z-index: 2;
 
 .price_section{
     width: 100%;
-    background: url(../img/bg&polygons\ -\ 4_price.png) top center;
+    background: url(../img/Union\ 5.png) top center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -150px;
@@ -818,6 +822,212 @@ width: 100%;
 height: 250px;
 }
 
+.bottom_section{
+    width: 100%;
+    background: url(../img/Union\ l.png) center center no-repeat;
+    background-size: cover;
+}
+
+.drive_header{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.drive_left{
+    width: 40%;
+}
+
+.bold_title_drive{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 90%;
+    text-transform: uppercase;
+    color: #2F73F6;
+    text-align: center;
+}
+
+.drive_title{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 90%;
+    text-transform: uppercase;
+    color: #2F73F6;
+}
+
+.drive_right{
+    position: relative;
+    left: -150px;
+    top: 150px;
+}
+
+.drive_text{
+    margin-top: 100px;
+}
+
+.btn_drive{
+    width: 416px;
+    height: 66px;
+    filter: drop-shadow(0px 6px 20px rgba(61, 70, 118, 0.08));
+    margin-top: 63px;
+}
+
+.drive_eye{
+    color: #2F73F6;
+}
+
+.bonus{
+    width: 90%;
+    height: 321px;
+    background: #ffffff;
+    box-shadow: 0px 60px 100px rgba(33, 49, 133, 0.1);
+    border-radius: 30px;
+    margin: 346px auto 0;
+}
+
+.title_bonus{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #2A2FA3;
+    position: relative;
+    top: 69px;
+    left: 70px;
+}
+
+.text_bonus{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #222A3F;
+    position: relative;
+    text-align: center;
+    top: 25px;
+}
+
+.bonus_container{
+    width: 70%;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 280px;
+    top: 80px;
+}
+
+.bonus_name{
+    width: 335px;
+    height: 37px;
+    border:none;
+    border-bottom: 2px solid #F2F4F9;
+}
+
+.button_bonus{
+    width: 235px;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(97.95deg, #1F5DEA 14.71%, #5C16CE 90.23%);
+    border-radius: 40px;
+    border: none;
+}
+
+.other_container{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.other_content{
+    width: 80%;
+    height: 462px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 60px rgba(61, 70, 118, 0.1);
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.other_img_back{
+    width: 555px;
+    height: 462px;
+}
+
+.text_other{
+   
+}
+
+
+.other_all_icon{
+    width: 80%;
+    height: 127px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.other_icon{
+    position: relative;
+    z-index: 1;
+
+}
+
+.other_polygon{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.other_vector{
+    position: relative;
+    left: 45px;
+    top: -50px;
+}
+
+.other_group{
+    top: 0;
+}
+
+.vector_group{
+    top: -25px;
+    left: -46px;
+}
+
+.other_rating{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 120%;
+    text-align: right;
+    color: #9594AA;
+}
+
+.other_icon_text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #222A3F;
+    margin-top: 10px;
+}
 
 
 
