@@ -173,7 +173,7 @@ body{
     line-height: 100%;
     text-transform: uppercase;
     color: #2A2FA3;
-    margin-top: 25%;
+    margin-top: 10%;
 }
 
 .ad_small_text{
@@ -280,19 +280,21 @@ body{
 .game_big_title{
     font-family: "Patrick Hand", sans-serif;
     font-weight: 600;
-    font-size: 170px;
+    font-size: 200px;
     line-height: 90%;
     color: #FFFFFF;
-    margin-top: 215px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 .game_text{
     font-family: "Patrick Hand", sans-serif;
     font-weight: 800;
-    font-size: 90px;
+    font-size: 104px;
     line-height: 100%;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-left: 5%;
 }
 
 .game_middle{
@@ -308,12 +310,13 @@ body{
     line-height: 155%;
     color: #FFFFFF;
     text-align: left;
-    margin-top: 40px;
+    margin-top: 3%;
+    margin-left: 5%;
 }
 
 .btn_game{
-    width: 253px;
-    height: 66px;
+    width: 267px;
+    height: 72px;
     background: #FFFFFF;
     border-radius: 40px;
     margin-top: 20px;
@@ -322,6 +325,7 @@ body{
     align-items: center;
     border: none;
     padding: 20px 30px;
+    margin-right: 20%;
 }
 
 .fa-eye{
@@ -332,7 +336,7 @@ body{
 .btn_text{
     font-family: "Dosis", sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 120%;
     text-align: center;
     text-transform: uppercase;
@@ -345,12 +349,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 210px;
+    margin-top: 12%;
+    margin-left: 5%;
     
 }
 
 .game_box{
-    width: 310px;
+    width: 367px;
     height: 344px;
     background: #FFFFFF;
     box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
@@ -358,8 +363,8 @@ body{
 }
 
 .game_img{
-    width: 250px;
-    height: 350px;
+    width: 279px;
+    height: 382px;
     background: url(bath-trouble-bg-1.jpg);
     border-radius: 20px;
     display: block;
@@ -400,6 +405,7 @@ body{
     width: 120px;
     height: 40px;
     padding: 10px 10px 12px;
+    margin-top: -30px;
     font-family: "Dosis", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -410,21 +416,27 @@ body{
 
 .game_box:nth-child(2){
     height: 310px;
-    width: 290px;
+    width: 312px;
+    margin-top: -20px;
+}
+
+.game_box:nth-child(3){
+    height: 310px;
+    width: 312px;
     margin-top: -20px;
 }
 
 .game_box:nth-child(4){
     height: 310px;
-    width: 290px;
+    width: 312px;
     margin-top: -20px;
 }
 
 
 
 .game_second_img{
-    width: 230px;
-    height: 315px;
+    width: 260px;
+    height: 346px;
 }
 
 .second_rating{
@@ -437,12 +449,12 @@ justify-content: center;
 
 .all_btn_footer_game{
     display: flex;
-    width: 15%;
+    width: 13%;
     justify-content: space-between;
     align-items: center;
-    margin-left: 120px;
-    margin-top: 70px;
-    padding-bottom: 200px;
+    margin-left: 13%;
+    margin-top: 5%;
+    padding-bottom: 2%;
     filter: drop-shadow(0px 2px 14px rgba(61, 70, 118, 0.14));
 }
 
@@ -466,12 +478,12 @@ justify-content: center;
     width: 100%;
     background: url(../img/bg&polygons\ -\ 3_types\ of\ floors.png) top right no-repeat;
     background-size: contain;
-    margin-top: -150px;
+    margin-top: %;
 }
 
 .header_type{
     width: 85%;
-    margin-left: 40px;
+    margin: 0 auto;
 }
 
 .type_title{
@@ -493,20 +505,20 @@ justify-content: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
 }
 
 .btn_type{
-    width: 192px;
-    height: 63px;
+    width: 229px;
+    height: 72px;
     border: 2.5px solid #F2F4F9;
     background-color: #FFFFFF;
     box-sizing: border-box;
     border-radius: 40px;
     font-family: "Dosis", sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 120%;
     text-align: center;
     text-transform: uppercase;
@@ -518,12 +530,11 @@ justify-content: center;
 }
 
 .main_type{
-    width: 85%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 40px;
-    margin-top: 102px;
+    margin: 6% auto;
 }
 
 .img_type{
@@ -536,6 +547,8 @@ justify-content: center;
     background: #F1F6FE;
     border-radius: 30px;
     z-index: 1;
+    float: right;
+    margin-right: 10%;
 }
 
 .big_img_type{
@@ -557,12 +570,14 @@ z-index: 2;
 }
 
 .small_img_type{
-    width: 60%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 200px;
-    margin-top: 20px;
+    float: right;
+    margin-right: 25%;
+    margin-top: 1%;
+    
 }
 
 .small_img_type_box_text{
@@ -582,7 +597,7 @@ z-index: 2;
 
 .text_type{
     width: 85%;
-    margin-top: -50px;
+    margin-top: 8%;
 }
 
 .text_header_type{
@@ -628,15 +643,16 @@ z-index: 2;
 
 .price_section{
     width: 100%;
-    background: url(../img/Union\ 5.png) top center;
+    background: url(../img/Union\ price\ 02.png) top center;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -150px;
+    background-size: contain;
+    margin-top: -12%;
+    
 }
 
 .price_title{
     color: #FFFFFF;
-    padding-top: 600px;
+    padding-top: 27%;
 } 
 
 .price_description{
@@ -644,12 +660,11 @@ z-index: 2;
 }
 
 .price_content{
-    width: 70%;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 230px; 
-    margin-bottom: 30px;
+    margin: 0 auto;
 }
 
 .price_box{
@@ -658,6 +673,7 @@ z-index: 2;
     background: #FFFFFF;
     box-shadow: 0px 18px 60px rgba(61, 70, 118, 0.1);
     border-radius: 30px;
+    margin-bottom: 30%;
 }
 
 .img_price{
@@ -677,7 +693,7 @@ z-index: 2;
 .prace{
     font-family: "Dosis", sans-serif;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 72px;
     line-height: 76px;
     color: #311F65;
     text-align: center;
@@ -703,64 +719,79 @@ z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px auto 0;
+    margin: 0 auto  ;
+}
+
+.container_warranty_icon{
+    margin-top: 10%;
+    float: right;
+    margin-right: 55%;
+}
+
+.warranty_second_icon{
+    margin-top: -25%;
+    float: right;
 }
 
 .left_section{
-    width: 50%;
+    width: 100%;
+}
+
+.right_section{
+    width: 100%;
+    margin-left: 10%;
 }
 
 .bold_title{
     font-family: "Patrick Hand", sans-serif;
     font-weight: 800;
-    font-size: 170px;
+    font-size: 180px;
     line-height: 90%;
     color: #2F73F6;
     text-transform: uppercase;
     text-align: right;
-    margin-top: 200px;
 }
 
 .warranty_title{
-    margin-top: 0px;
-    text-align: center;
-    margin-left: 22%;
+    margin: 0;
+    text-align: right;
     color: #2F73F6;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 100%;
+    margin-right: 5%;
 }
 
 .text_warranty{
-    margin-top: 100px;
     
 }
 
 .warranty_icon{
-    position: relative;
-    left: 30px;
 }
 
 .warranty_icon:last-child{
-    position: relative;
-    left: 350px;
-    top: -130px;
+    
 }
 
 .middle{
     width: 100%;
-    background: url(../img/Union.png) bottom center no-repeat;
+    background: url(../img/Union\ p\ 02.png) bottom center no-repeat;
     background-size: contain;
 }
 
 .package_title{
-   text-align: left;
-   margin-left: 200px;
-   font-size: 85px;
+   text-align:left;
+   font-size: 104px;
 }
 
 .package_text{
     text-align: left;
-    margin-left: 200px;
     margin-top: 40px;
     margin-bottom: 48px;
+}
+
+.package_header{
+margin-left: 20%;
 }
 
 .package_container{
@@ -768,11 +799,12 @@ z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto ;
 }
 
 .package_list{
-    width: 30%;
+    width: 40%;
+    margin-left: 10%;
 }
 
 .middle_item{
@@ -793,7 +825,7 @@ z-index: 2;
 }
 
 .get_title{
-    margin-top: 250px;
+    margin-top: 15%;
     color: #FFFFFF;
 }
 
@@ -805,9 +837,9 @@ z-index: 2;
     width: 90%;
     height: 270px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
+    margin: 6% auto;
 }
 
 .get_icon{
@@ -829,7 +861,7 @@ z-index: 2;
 
 .get_footer{
 width: 100%;
-height: 250px;
+height: 50px;
 }
 
 .bottom_section{
@@ -848,40 +880,42 @@ height: 250px;
 
 .drive_left{
     width: 40%;
+    margin-left: 10%;
 }
 
 .bold_title_drive{
     font-family: "Patrick Hand", sans-serif;
     font-weight: 800;
-    font-size: 150px;
+    font-size: 180px;
     line-height: 90%;
     text-transform: uppercase;
     color: #2F73F6;
-    text-align: center;
+    text-align: left;
 }
 
 .drive_title{
     font-family: "Patrick Hand", sans-serif;
     font-weight: 800;
-    font-size: 80px;
+    font-size: 90px;
     line-height: 90%;
     text-transform: uppercase;
     color: #2F73F6;
+    text-align: left;
 }
 
 .drive_right{
     position: relative;
-    left: -150px;
+    left: -200px;
     top: 150px;
 }
 
 .drive_text{
-    margin-top: 100px;
+    margin-top: 18%;
 }
 
 .btn_drive{
-    width: 416px;
-    height: 66px;
+    width: 448px;
+    height: 72px;
     filter: drop-shadow(0px 6px 20px rgba(61, 70, 118, 0.08));
     margin-top: 63px;
 }
@@ -891,18 +925,18 @@ height: 250px;
 }
 
 .bonus{
-    width: 90%;
-    height: 321px;
+    height: 358px;
+    width: 80%;
     background: #ffffff;
     box-shadow: 0px 60px 100px rgba(33, 49, 133, 0.1);
     border-radius: 30px;
-    margin: 346px auto 0;
+    margin: 20% auto 0;
 }
 
 .title_bonus{
     font-family: "Patrick Hand", sans-serif;
     font-weight: 800;
-    font-size: 90px;
+    font-size: 104px;
     line-height: 100%;
     text-transform: uppercase;
     color: #2A2FA3;
@@ -914,7 +948,7 @@ height: 250px;
 .text_bonus{
     font-family: "Dosis", sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 32px;
     line-height: 38px;
     color: #222A3F;
     position: relative;
@@ -941,8 +975,8 @@ height: 250px;
 }
 
 .button_bonus{
-    width: 235px;
-    height: 66px;
+    width: 269px;
+    height: 72px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -957,11 +991,11 @@ height: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin:  auto;
 }
 
 .other_content{
-    width: 80%;
+    width: 85%;
     height: 462px;
     background: #FFFFFF;
     box-shadow: 0px 18px 60px rgba(61, 70, 118, 0.1);
@@ -978,8 +1012,15 @@ height: 250px;
     height: 462px;
 }
 
-.text_other{
-   
+.other_description{
+
+}
+
+.other_title{
+    margin-top: 30%;
+}
+
+.other_text{
 }
 
 
@@ -1042,12 +1083,23 @@ height: 250px;
 
 
 .faq_header{
-    margin-left: -50px;
+    
+}
+
+.taq_text{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.faq_title{
+    text-align: center;
+    margin-top: 15%;
 }
 
 .faq_list{
     width: 85%;
-    height: 800px;
+    height: 1080px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1056,7 +1108,7 @@ height: 250px;
 
 .faq_item_text{
     width: 100%;
-    height: 253px;
+    height: 304px;
     background: #FFFFFF;
     box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
     border-radius: 30px;
@@ -1064,7 +1116,7 @@ height: 250px;
 
 .faq_item{
     width: 100%;
-    height: 80px;
+    height: 96px;
     background: #F2F4F9;
     border-radius: 30px;
     display: flex;
@@ -1085,16 +1137,18 @@ height: 250px;
 
 .faq_dox_item{
     margin-left: 70px;
+    font-size: 22px;
 }
 
 .faq_item_title{
     font-family: "Dosis", sans-serif;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 30px;
     line-height: 120%;
     color: #222A3F;
     margin-left: 40px;
 }
+
 
 .fa-chevron-down,.fa-chevron-up{
     width: 14.14px;
@@ -1107,4 +1161,137 @@ height: 250px;
 
 .faq_button{
     margin-top: 50px;
+    width:260px;
+    height: 72px;
+    margin-bottom: 10%;
+}
+
+.contact{
+    width: 100%;
+    background: url(../img/Vector\ 14\ f\ 02.png) left bottom no-repeat;
+}
+
+.contact_container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto  ;
+}
+
+.cont_left_box{
+    width: 660px;
+    height: 739px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 60px rgba(61, 70, 118, 0.1);
+    border-radius: 60px;
+    
+}
+
+.cont_title{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    color: #222A3F;
+    margin-top: 12%;
+    margin-left: 25%;
+}
+
+.cont_form{
+    width: 460px;
+    height: 319px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 13%;
+    margin-top: 15%;
+}
+
+.cont_name{
+    width: 460px;
+    height: 37px;
+}
+
+.tetx_name{
+    width: 460px;
+    height: 149px; 
+    border: none;
+    border-bottom: 2px solid #F2F4F9;
+}
+
+.button_cont{
+    width: 302px;
+    margin-top: 6%;
+    margin-left: 25%;
+}
+
+.cont_right_box{
+    margin-left: 5%;
+}
+
+.contact_us{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #2A2FA3;
+}
+
+.cont_text{
+    margin-top: 5%;
+    line-height: 130%;
+    margin-bottom: 4%;
+}
+
+.cont_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont_icon{
+    margin-top: 15%;
+    margin-left: -5%;
+}
+
+.cont_info_text{
+    margin-left: 25%;
+    margin-top: -15%;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 120%;
+    color: #363078;
+}
+
+.footer{
+    width: 100%;
+    background: url(../img/Vector\ 17\ footer.png) right bottom no-repeat;
+}
+
+.footer_container{
+    width: 100%;
+    height: 516px;
+    padding-top: 0%;
+}
+
+.footer_links{
+    width: 202px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto ;
+    position: relative;
+    top: 65%;
+}
+
+.nav_footer{
+
+}
+
+.menu_footer{
+    margin: 0 auto;
+    padding-top: 45%;
+    padding-left: 20%;
 }
