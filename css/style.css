@@ -471,14 +471,10 @@ justify-content: center;
     color: #4659FF; 
 }
 
-
-
-
 .type_section{
     width: 100%;
     background: url(../img/bg&polygons\ -\ 3_types\ of\ floors.png) top right no-repeat;
     background-size: contain;
-    margin-top: %;
 }
 
 .header_type{
@@ -624,10 +620,6 @@ z-index: 2;
     margin-top: 50px;
 }
 
-.type_list{
-
-}
-
 .type_list_item{
     font-family: "Dosis", sans-serif;
     font-weight: 500;
@@ -760,17 +752,6 @@ z-index: 2;
     font-size: 100px;
     line-height: 100%;
     margin-right: 5%;
-}
-
-.text_warranty{
-    
-}
-
-.warranty_icon{
-}
-
-.warranty_icon:last-child{
-    
 }
 
 .middle{
@@ -926,7 +907,7 @@ height: 50px;
 
 .bonus{
     height: 358px;
-    width: 80%;
+    width: 90%;
     background: #ffffff;
     box-shadow: 0px 60px 100px rgba(33, 49, 133, 0.1);
     border-radius: 30px;
@@ -954,6 +935,7 @@ height: 50px;
     position: relative;
     text-align: center;
     top: 25px;
+    left: 100px;
 }
 
 .bonus_container{
@@ -967,8 +949,12 @@ height: 50px;
     top: 80px;
 }
 
+.input_button{
+    margin-left: 0px;
+}
+
 .bonus_name{
-    width: 335px;
+    width: 300px;
     height: 37px;
     border:none;
     border-bottom: 2px solid #F2F4F9;
@@ -1012,17 +998,9 @@ height: 50px;
     height: 462px;
 }
 
-.other_description{
-
-}
-
 .other_title{
     margin-top: 30%;
 }
-
-.other_text{
-}
-
 
 .other_all_icon{
     width: 80%;
@@ -1079,11 +1057,6 @@ height: 50px;
     text-align: center;
     color: #222A3F;
     margin-top: 10px;
-}
-
-
-.faq_header{
-    
 }
 
 .taq_text{
@@ -1284,10 +1257,6 @@ height: 50px;
     margin: 0 auto ;
     position: relative;
     top: 65%;
-}
-
-.nav_footer{
-
 }
 
 .menu_footer{
