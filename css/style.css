@@ -4,6 +4,7 @@ html {
 
 body{
     background: #E5E5E5;
+    overflow-x: hidden;
 }
 
 .section_header{
@@ -151,7 +152,7 @@ body{
 
 
 .advantages_section{
-    background: url(../img/Union\ 02.png) bottom center;
+    background: url(../img/Union\ 00.png) bottom center;
     background-size: contain;
     background-repeat:no-repeat;
     width: 100%;
@@ -208,33 +209,34 @@ body{
     background: #ffffff;
     box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
     border-radius: 28px;
+    position: relative;
 }
 
 .more_info{
     width: 36px;
     height: 36px;
     opacity: 0.8;
-    position: relative;
-    top: -100px;
+    position: absolute;
+    top: 10px;
     left: 230px;
 }
 
 .polygon{
-    position: relative;
-    top: 30px;
-    left: 30px;
+    position: absolute;
+    top: 40px;
+    left: 70px;
     z-index: 1;
 }
 
 .vector{
-    position: relative;
-    top: -20px;
-    left: -80px;
+    position: absolute;
+    top: 90px;
+    left: 110px;
     z-index: 2;
 }
 
-.first_vector{
-    left: -65px;
+ /* .first_vector{
+    left: 100px;
 }
 
 .first_group{
@@ -245,7 +247,7 @@ body{
 .second_group{
     left: -70px;
     top: -30px;
-}
+}  */
 
 .game_icon_text{
     font-family: "Dosis", sans-serif;
@@ -254,7 +256,10 @@ body{
     line-height: 120%;
     text-align: center;
     color: #222A3F;
-    margin-top: 50px;
+    position: absolute;
+    top: 220px;
+    left: 60px;
+    
 }
 
 .game_icon:first-child{
@@ -349,31 +354,64 @@ body{
 }
 
 .game_all{
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 12%;
-    margin-left: 5%;
+    top:400px;
+    left: 5%;
     
 }
 
 .game_box{
-    width: 367px;
-    height: 344px;
+    position: absolute;
+    width: 340px;
+    height: 312px;
     background: #FFFFFF;
     box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
     border-radius: 30px;
+    left: 0px;
+    transition: 1s;
+}
+
+.game_box:first-child{
+
+}
+
+.game_box:nth-child(2){
+    left: 29%;
+}
+
+.game_box:nth-child(3){
+    left: 57%;
+}
+
+.game_box:last-child{
+    left: 85%;
+}
+
+
+
+.game_box:hover{
+    width: 367px;
+    height: 344px;
 }
 
 .game_img{
-    width: 279px;
-    height: 382px;
+    width: 260px;
+    height: 346px;
     background: url(bath-trouble-bg-1.jpg);
     border-radius: 20px;
     display: block;
     margin: 0 auto;
     margin-top: -130px;
+    transition: 1s;
+}
+
+.game_img:hover{
+    width: 279px;
+    height: 382px;
 }
 
 .rating{
@@ -419,32 +457,25 @@ body{
 }
 
 .game_box:nth-child(2){
-    height: 310px;
-    width: 312px;
-    margin-top: -20px;
+   
 }
 
 .game_box:nth-child(3){
-    height: 310px;
-    width: 312px;
-    margin-top: -20px;
+   
 }
 
 .game_box:nth-child(4){
-    height: 310px;
-    width: 312px;
-    margin-top: -20px;
+  
 }
 
 
 
 .game_second_img{
-    width: 260px;
-    height: 346px;
+    
 }
 
 .second_rating{
-    top: -285px;
+   
 }
 
 .second_dtn_container{
@@ -456,8 +487,8 @@ justify-content: center;
     width: 13%;
     justify-content: space-between;
     align-items: center;
-    margin-left: 13%;
-    margin-top: 5%;
+    margin-left: 12%;
+    margin-top: 33%;
     padding-bottom: 2%;
     filter: drop-shadow(0px 2px 14px rgba(61, 70, 118, 0.14));
 }
@@ -479,6 +510,7 @@ justify-content: center;
     width: 100%;
     background: url(../img/bg&polygons\ -\ 3_types\ of\ floors.png) top right no-repeat;
     background-size: contain;
+    margin-top: 200px;
 }
 
 .header_type{
@@ -720,23 +752,27 @@ z-index: 2;
 }
 
 .container_warranty_icon{
-    margin-top: 10%;
-    margin-right: 55%;
+    position: absolute;
+    top: 300px;
+    left: 0%;
+    
 }
 
 .warranty_second_icon{
-    margin-top: -25%;
-    float: right;
-    margin-right: -8%;
+    position: absolute;
+    top: 400px;
+    left: 60%;;
 }
 
 .left_section{
     width: 100%;
+    position: relative;
 }
 
 .right_section{
     width: 100%;
     margin-left: 10%;
+    margin-top: 450px;
 }
 
 .bold_title{
@@ -763,6 +799,7 @@ z-index: 2;
     width: 100%;
     background: url(../img/Union\ p\ 02.png) bottom center no-repeat;
     background-size: contain;
+    margin-top: 500px;
 }
 
 .package_title{
@@ -834,6 +871,7 @@ margin-left: 20%;
     background: #FFFFFF;
     box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
     border-radius: 28px;
+    position: relative;
 
 }
 
@@ -978,7 +1016,7 @@ height: 50px;
 }
 
 .other_container{
-    width: 95%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -995,12 +1033,21 @@ height: 50px;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto 100px;
-    padding: 50px;
+    padding: 30px;
+}
+
+.other_button{
+    margin: 15px;
 }
 
 .other_img_back{
     width: 555px;
     height: 462px;
+}
+
+.other_text{
+    width: 100%;
+    margin-left: 10px;
 }
 
 .other_title{
@@ -1273,8 +1320,18 @@ height: 50px;
 
 
 @media(min-width:992px) and (max-width:1440px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .section_header{
+        width: 100%;
+        background: url(../img/bg\ img\ 777.png) bottom center no-repeat;
+        background-size: cover;
+    }
+    
     .big_text_header{
-        font-size: 80px;
+        font-size: 90px;
     }
 
     .small_text_header{
@@ -1303,32 +1360,44 @@ height: 50px;
     }
 
     .ad_icon{
-        width: 90%;
+        width: 100%;
         margin-top: -10%;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
+    
+    .game_icon{
+        position: relative;
+    }
+
+    .more_info{
+    
+    }
 
 
     .game_icon:first-child {
-        margin-top: 0%;
-        margin-left: -10%;
+        position: relative;
+        top: 14 px;
+        left: -50px;
     }
 
     .game_icon:nth-child(2){
-        margin-top: 5%;
-        margin-left: 40%;   
+           position: relative;
+            top: -85px;
+            left: 100px;
     }
 
     .game_icon:nth-child(3){
-        margin-top: 5%;
-        margin-left: -10%;
+        position: relative;
+        top: 30px;
+        left: -30px;
     }
 
     .game_icon:last-child{
-        margin-top: 5%;
-        margin-left: 40%;
+        position: relative;
+        top: -5px;
+        left: 100px;
     }
 
     .game_big_title{
@@ -1345,20 +1414,19 @@ height: 50px;
     }
 
     .game_all{
-        margin-left: 0%;
-        margin-top: 20%;
+        
     }
 
     .game_box:nth-child(2){
-        margin-right: 5%;
+        
     }
 
     .game_box:nth-child(1){
-        margin-right: 5%;
+        
     }
 
     .game_box:last-child{
-        margin-left: 5%;
+        
     }
 
     .rating{
@@ -1540,24 +1608,6 @@ height: 50px;
         height: 218px;
     }
 
-    .more_info{
-        top: -112px;
-        left: 171px;
-    }
-
-    .polygon{
-        top: 18px;
-        left: -2px;
-    }
-
-    .vector{
-        top: -93px;
-        left: 82px;
-    }
-
-    .game_icon_text{
-        margin-top: -41px;
-    }
 
     .drive_left{
         margin-left: 0%;
