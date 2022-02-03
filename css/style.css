@@ -484,11 +484,11 @@ justify-content: center;
 
 .all_btn_footer_game{
     display: flex;
-    width: 13%;
+    width: 250px;
     justify-content: space-between;
     align-items: center;
     margin-left: 12%;
-    margin-top: 33%;
+    margin-top: 650px;
     padding-bottom: 2%;
     filter: drop-shadow(0px 2px 14px rgba(61, 70, 118, 0.14));
 }
@@ -1351,6 +1351,13 @@ height: 50px;
         left: 4%;
     }
 
+    .advantages_section{
+        background: url(../img/Union\ 547.png) bottom center;
+        background-size: contain;
+        background-repeat:no-repeat;
+        width: 100%;
+    }
+
     .ad_title{
         font-size: 80px;
     }
@@ -1390,7 +1397,7 @@ height: 50px;
 
     .game_icon:nth-child(3){
         position: relative;
-        top: 30px;
+        top: 4px;
         left: -30px;
     }
 
@@ -1417,26 +1424,30 @@ height: 50px;
         
     }
 
-    .game_box:nth-child(2){
+    .game_box{
         
     }
 
-    .game_box:nth-child(1){
-        
+    .game_box:nth-child(2){
+        left: 40%;
+    }
+
+    .game_box:nth-child(3){
+        left: 80%;
     }
 
     .game_box:last-child{
-        
+        left: 100%;
     }
 
     .rating{
-        top: -330px;
-        left: 20px;
+       
     }
 
     .all_btn_footer_game{
-        width: 20%;
-        margin-left: 8%;
+        width: ;
+        margin-left: 13%;
+        margin-top: 600px;
     }
 
     .type_description{
@@ -1560,17 +1571,18 @@ height: 50px;
     }
 
     .text_warranty{
-        margin-top: -90%;
+        margin-top: -100px;
     }
 
     .container_warranty_icon{
-        margin-top: 50px;
-        margin-right: 200px;
+        top: 200px;
+        right: 0px;
     }
 
+
     .warranty_second_icon{
-        margin-right: 50px; 
-        margin-top: 0px;
+        left:350px; 
+        top: 450px;
     }
 
     .package_title, .package_text{
@@ -1606,6 +1618,20 @@ height: 50px;
     .get_icon{
         width: 220px;
         height: 218px;
+    }
+
+    .polygon_get{
+        left: 40px;
+        top: 20px;
+    }
+
+    .vector_get{
+        left: 85px;
+        top: 70px;
+    }
+
+    .get_text{
+        top: 180px;
     }
 
 
@@ -1667,13 +1693,14 @@ height: 50px;
 
     .other_content{
         height: 373px;
-        padding: 20px;
+        padding: 10px;
         margin: 25px auto;
     }
 
     .other_img_back{
         width: 370px;
         height: 340px;
+        margin-top: px;
     }
 
     .other_text{
@@ -1688,26 +1715,33 @@ height: 50px;
     }
 
     .text_other{
-        margin-top: 30%; 
+        margin-top: 0px; 
     }
 
     .other_all_icon{
-        margin-top: 50px;
+        margin-top: -50px;
+        width: 100%;
     }
 
-    .other_group{
-        left: 40%;
-        
+    .other_icon{
+        position: relative;
     }
 
-    .vector_group{
-       top: 0%;
-       left: 0%;
+    .other_polygon{
+        position: absolute;
+    }
+
+    .other_vector{
+        position: absolute;
     }
 
     .other_icon_text{
       
         font-size: 15px;
+    }
+
+    .other_rating{
+        margin-top: 200px;
     }
 
     .faq_title{
@@ -1727,8 +1761,16 @@ height: 50px;
         height: 60px;
     }
 
+    .contact_container{
+        width: 95%;
+    }
+
     .contact_us{
         font-size: 60px;
+    }
+
+    .cont_text{
+        margin-bottom: 50px;
     }
 
     .cont_title{
@@ -1743,6 +1785,29 @@ height: 50px;
     .menu_footer{
         padding-top: 62%;
          padding-left: 6%;  
+    }
+
+    .support{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .cont_icon{
+        position: relative;
+        
+    }
+
+    .other_group{
+        position: absolute;
+        top: -80px;
+        left: -20px;
+        
+    }
+
+    .vector_group{
+        position: absolute;
+        top: -50px;
+        left: 10px;
     }
    
 
