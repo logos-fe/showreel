@@ -729,7 +729,9 @@ b {
 }
 
 .footer-menu {
-  margin-top: 5%;
+  height: 150px;
+  width: 100%;
+  margin-top: 1%;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -746,7 +748,7 @@ b {
   background: url(./img/social\ icons\ footer.png);
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 2%;
+  margin-top: 15%;
 }
 
 .footer-copyright {
@@ -755,6 +757,276 @@ b {
   height: 45px;
   background: url(./img/copyright\ footer.png);
   background-repeat: no-repeat;
-  margin-top: 5%;
+  margin-top: 16%;
   margin-left: 20%;
+}
+
+
+
+
+
+@media (min-width: 1440px) and (max-width: 1665px) {
+  .logo-bg {
+    background-image: url(./img/logo\ bg.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 550px;
+    height: 250px;
+    top: 0;
+    left: -17%;
+}
+.logo {
+  margin-left: 47%;
+  margin-top: 5%;
+}
+.nav_container {
+  max-width: 50%;
+  margin-left: 30%;
+}
+.header-bg {
+  background-image: url(./img/bg\ img\ 1400.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1290px;
+  background-position: 60% 10%;
+}
+.polygons-bg {
+  background-image: url(./img/polygons.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1253.63px;
+  height: 776.46px;
+  margin-top: 60%;
+  margin-left: -5%;
+}
+.header-icons {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 50px;
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 2%;
+  justify-content: space-between;
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  z-index: 1;
+  color: white;
+  height: 480px;
+  justify-content: center;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 25%;
+}
+.button-start {
+  position: relative;
+  width: 340px;
+  height: 72px;
+  margin-top: 55%;
+  margin-left: 10%;
+}
+.advantages_info {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 22%;
+  padding-top: 10%;
+  margin-left: 3%;
+}
+.advantages_items {
+  display: flex;
+  margin-left: 50%;
+  z-index: 2;
+}
+.finger {
+  position: absolute;
+  margin-left: -2%;
+  margin-top: 12%;
+}
+.crown {
+  position: absolute;
+  margin-left: -2%;
+  margin-top: 36%;
+}
+.games-bg {
+  background-image: url(./img/bg&polygons\ -\ 2_90+\ games.png);
+  background-repeat: no-repeat;
+  height: 2225px;
+  width: 100%;
+  background-position: 60% 100%;
+  position: absolute;
+  display: block;
+  background-color: rgba(255, 255, 255, 0);
+}
+.brain {
+  position: absolute;
+  margin-left: -27%;
+  margin-top: 28%;
+}
+.games_info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  position: absolute;
+  margin-top: 32%;
+  margin-left: 3%;
+}
+.button-all-games {
+  margin-top: 48%;
+  margin-left: 70%;
+  z-index: 6;
+}
+.game-list {
+  background-image: url(./img/list\ of\ games.png);
+  background-repeat: no-repeat;
+  width: 1250px;
+  height: 500px;
+  margin-left: -81%;
+  margin-top: 1%;
+}
+.games_header {
+  position: absolute;
+  height: 290px;
+  width: 180px;
+  margin-top: -4%;
+}
+.flors_info {
+  display: flex;
+  background-image: url(./img/3_types\ of\ floors.png);
+  background-repeat: no-repeat;
+  background-position: 40% 0%;
+  background-size: 72%;
+  position: absolute;
+  width: 100%;
+  height: 1068px;
+}
+.flors {
+  background-size: 15%;
+}
+.flors_nav {
+  margin-left: 24.5%;
+  margin-top: 12.3%;
+}
+.flor_button {
+  position: static;
+  width: 240px;
+  height: 65px;
+}
+.button-price1 {
+  margin-left: 23%;
+  z-index: 6;
+  margin-top: -10%;
+}
+.button-price2 {
+  z-index: 6;
+  margin-top: -5%;
+  margin-left: 62%;
+}
+.warranty-info {
+  position: absolute;
+  background-image: url(./img/5_warranty.png);
+  background-repeat: no-repeat;
+  height: 730px;
+  width: 1200px;
+  margin-left: 5%;
+  z-index: 6;
+}
+.warranty {
+  background: url(./img/bg&polygons\ -\ 5_warranty.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1013px;
+  background-size: 75%;
+}
+.package {
+  background-image: url(./img/6_what\ is\ in\ the\ package_.png);
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 1200px;
+  margin: 0 auto;
+  z-index: 5;
+  background-size: 80%;
+  margin-left: 10%;
+}
+.you_list {
+  position: absolute;
+  width: 1260px;
+  height: 270px;
+  margin-left: 7%;
+  margin-top: 18%;
+  background-size: 80%;
+}
+.test-bg {
+  margin-top: 64%;
+}
+.developments {
+  margin-top: 60%;
+}
+.button-test {
+  position: absolute;
+  margin-top: 90%;
+  margin-left: 48.5%;
+}
+.bonus {
+  position: absolute;
+  background-image: url(./img/9_bonus.png);
+  top: 8%;
+  z-index: 9;
+  margin: 0 auto;
+  margin-left: 3%;
+  background-size: 95%;
+}
+.bonus-button {
+  position: absolute;
+  width: 200px;
+  height: 55px;
+  border-radius: 40px;
+  cursor: pointer;
+  background: url(./img/bonus\ button.png);
+  background-repeat: no-repeat;
+  background-position: 57% 40%;
+  background-size: 128%;
+  margin-top: 14%;
+  margin-left: 69%;
+  z-index: 10;
+}
+.dev-header {
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  margin-top: 55%;
+  margin-left: 30%;
+  gap: 50px;
+}
+.dev-box {
+  background-image: url(./img/card\ other\ product.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1400px;
+  height: 650px;
+  z-index: 10;
+  margin-top: 75%;
+  margin-left: 7%;
+  background-size: 90%;
+}
+.dev-scroll-left {
+  top: 70%;
+  left: 5%;
+}
+.dev-scroll-right {
+  top: 70%;
+  right: 3.7%;
+}
+.contact-block {
+  margin-left: 2%;
+}
+.contact-us {
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
 }
