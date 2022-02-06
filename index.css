@@ -4,6 +4,9 @@ body {
   overflow-x: hidden;
 }
 /* header block */
+.menu {
+  display: none;
+}
 .header-bg {
   background-image: url(./img/bg\ img.png);
   background-repeat: no-repeat;
@@ -25,6 +28,7 @@ body {
   max-width: 60%;
   margin-left: 30%;
 }
+
 .header_nav {
   display: flex;
   flex-direction: row;
@@ -424,17 +428,23 @@ b {
   background-position: 57% 40%;
   margin-left: 300px;
 }
-/* .button-price1 {
-  margin-left: 29%;
+.button-price1 {
+  position: relative;
+  margin-left: 0%;
+  left: -25%;
   z-index: 6;
-  margin-top: -10%;
+  top: 10%;
+  margin-top: 0%;
 }
 .button-price2 {
   z-index: 6;
-  margin-top: -3.75%;
-  margin-left: 58%;
-} */
-.button-price {
+  margin-top: 0%;
+  margin-left: 0%;
+  position: relative;
+  top: 5%;
+  left: -25%;
+} 
+/* .button-price {
   display: flex;
   flex-direction: row;
   width: 70%;
@@ -443,7 +453,7 @@ b {
   bottom: 10%;
   position: relative;
   left: 14%;
-}
+} */
 
 
 /* warranty block */
@@ -1452,7 +1462,7 @@ b {
 }
 .header-icons {
   flex-direction: row;
-  top: 60%;
+  top: 50%;
 }
 .big_text {
   font-size: 40px;
@@ -1667,5 +1677,320 @@ left: -20%;
 .footer_button {
   margin-top: 2%;
   margin-left: 50px;
+}
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .header-bg {
+    background-image: url(./img/370/bg\ img\ 375.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+}
+.nav_container {
+  display: none;
+}
+.logo-bg {
+  background-image: url(./img/370/Ellipse\ 1.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.logo {
+  background-image: url(./img/370/KIDS-jump-TECH-2\ 2.png);
+  z-index: 10;
+  height: 120px;
+  left:30px;
+  top: 10px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.polygons-bg {
+  display: none;
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  z-index: 1;
+  color: white;
+  height: 480px;
+  justify-content: center;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 0;
+}
+.big_text {
+  position: relative;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+  top: -30%;
+}
+.small_text {
+  position: relative;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 100%;
+  top: -30%;
+}
+.inst-icon,
+.utube-icon,
+.facebook-icon {
+  display: none;
+}
+.header-icons {
+  display: block;
+  height: 50px;
+  width: 200px;
+  position: relative;
+  margin-top: 0;
+  margin-left: 0%;
+  background-image: url(./img/370/social\ icons.png);
+  background-repeat: no-repeat;
+  left: 65%;
+  top: -10%;
+}
+.button-start {
+  position: relative;
+  width: 340px;
+  height: 72px;
+  margin-top: 0%;
+  margin-left: 0%;
+  top: 55%;
+  left: 5%;
+}
+
+/* navMenu */
+.menu {
+  display: block;
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  z-index: 5;
+  padding: 20px 150px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  outline: none;
+  transition: .4s ease-in-out;
+}
+.topmenu {
+  backface-visibility: hidden;
+  background: rgba(255, 255, 255, 0);
+}
+.topmenu > li {
+  position: relative;
+  float: left;
+}
+.topmenu > li > .nav_button {
+  height: 100px;
+  line-height: 100px;
+  padding: 0 30px;
+  font-weight: bold;
+  color: #00355900;
+  text-transform: uppercase;
+}
+.down:after {
+  content: "\f107";
+  margin-left: 8px;
+}
+
+.submenu {
+  background-image: url(./img/370/bg\ menu\ img.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 5;
+  width: 150px;
+  transform: perspective(600px) rotateX(-90deg);
+  transform-origin: 0% 0%;
+  transition: .6s ease-in-out;
+}
+.topmenu > li:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+  transform: perspective(600px) rotateX(0deg);
+}
+.submenu li div {
+  color: #fffffff8;
+  font-size: 13px;
+  line-height: 36px;
+  padding: 0 25px;
+}
+/* navMenu */
+
+.advantages_info,
+.advantages_items {
+  display: none;
+}
+.advantages {
+  background-image: url(./img/370/1_our\ advantages.png);
+  background-repeat: no-repeat;
+  height: 650px;
+}
+.games-bg {
+  background-image: url(./img/370/bg&polygons\ -\ 2_90+\ games.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1000px;
+}
+.games_info,
+.button-all-games {
+  display: none;
+}
+.game-list {
+  top: 0;
+  background-image: url(./img/370/2_90+\ games.png);
+  height: 750px;
+  width: 100%;
+  background-position: 90% 100%;
+}
+.flors_nav {
+  display: none;
+}
+.flors {
+  background-image: none;
+  height: 1200px;
+}
+.flors_info {
+  background-image: url(./img/370/3_types\ of\ floors.png);
+  height: 1200px;
+}
+.button-price,
+.price_cards,
+.price_img,
+.price_text {
+  display: none;
+}
+.price {
+  background-image: url(./img/370/bg&polygons\ -\ 4_price.png);
+  background-size: 100%;
+  height: 800px;
+}
+.price_info {
+  display: block;
+  position: relative;
+  height: 800px;
+  background-image: url(./img/370/4_price.png);
+  background-repeat: no-repeat;
+  background-position: 4% 15%;
+}
+.warranty {
+  background-image: url(./img/370/Vector\ 18\ warr.png);
+  background-position: 0% 90%;
+  height: 850px;
+}
+.warranty-info {
+  background-image: url(./img/370/5_warranty.png);
+  background-position: 0% 0%;
+  margin-left: 0;
+}
+.package_polygon {
+  display: none;
+}
+.package {
+  background-image: url(./img/370/6_what\ is\ in\ the\ package_.png);
+  margin: 0;
+  background-position: 2% 0%;
+  height: 700px;
+}
+.you-get {
+  height: 800px;
+  background-size: 100%;
+  margin-top: 0;
+  position: relative;
+  background-image: url(./img/370/bg&polygons\ -\ 7_what\ do\ you\ get_.png);
+}
+.you_info {
+  margin-top: 0;
+  position: relative;
+  display: block;
+  background-image: url(./img/370/7_what\ do\ you\ get_.png);
+  background-repeat: no-repeat;
+  background-position: 70% 100%;
+  height: 800px;
+}
+.you_img,
+.you_text,
+.you_list {
+  display: none;
+}
+.button-test {
+  display: none;
+}
+.test-bg {
+  background-image: url(./img/370/8_\ free\ test\ drive.png);
+  margin-top: 0;
+}
+.test-drive {
+  height: 400px;
+}
+
+.developments {
+  height: 1650px;
+  background-size: 100%;
+  display: block;
+  margin-top: 0;
+  background-image: url(./img/370/bg&polygons\ -\ 9_bonus\ 10_other\ developments.png);
+}
+.bonus-button,
+.dev-header,
+.dev-scroll-left,
+.dev-scroll-right {
+  display: none;
+}
+.bonus {
+  position: relative;
+  background-image: url(./img/370/9_bonus.png);
+  margin-left: 0;
+  height: 600px;
+  margin-top: 20%;
+}
+.dev-box {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  background-image: url(./img/370/10_other\ developments.png);
+  height: 1000px;
+}
+.contact-us {
+  background: url(./img/370/bg&polygons\ -\ 12_contact\ us.png);
+  background-repeat: no-repeat;
+  height: 950px;
+}
+.contact-block {
+  display: none;
+}
+.contact_us_768 {
+  display: block;
+  background-image: url(./img/370/12_contact\ us.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1000px;
+}
+.footer-copyright,
+.footer-menu,
+.footer-icons {
+  display: none;
+}
+.footer-bg {
+  display: block;
+  position: relative;
+  background-image: url(./img/370/bg&polygons\ -\ footer.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 170px;
 }
 }
