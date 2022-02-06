@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Lifehack';
+    src: local('Lifehack Sans Medium'), local('Lifehack-Sans-Medium'),
+        url('LifehackSans-Medium.woff2') format('woff2'),
+        url('LifehackSans-Medium.woff') format('woff'),
+        url('LifehackSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
