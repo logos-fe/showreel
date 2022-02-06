@@ -1,0 +1,1887 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background: #E5E5E5;
+    overflow-x: hidden;
+}
+
+.section_header{
+    width: 100%;
+    height: 1290px;
+    background:white url(../img/bgimg.png) center center no-repeat;
+    background-size:cover;
+}
+
+.header{
+    background: url(../img/Ellipse\ 1.png) top left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20%;
+}
+.nav{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    transform: translateY(-5%);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    margin-right: 15%;
+    margin-left: 25%;
+}
+
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #E8E6F8;
+    transition: 0.5s;
+
+}
+
+.link:hover{
+    font-size: 17px;
+}
+
+.link::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #fdfdfd;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.link:hover::after{
+    width: 100%;
+}
+
+.big_header{
+    width: 60%;
+    height: 38%;
+    margin-left: 13%;
+}
+.text_header{
+    margin-left: 200px;
+    margin-bottom: 40px;
+}
+.big_text_header{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #FCFDFF;
+    margin-bottom: 40px;
+}
+
+.small_text_header{
+    font-family: "Dosis", sans-serif;
+    font-size: 22px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.button{
+    width: 340px;
+    height: 72px;
+    background: linear-gradient(92.57deg, #2F8FFF 0%, #2F73F6 100%);
+    box-shadow: 0px 10px 40px rgba(31, 93, 234, 0.25);
+    border-radius: 40px;
+    border: none;
+    margin-top: 0%;
+    margin-left: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 14%;
+}
+
+.button_icon{
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.arrow_long{
+    font-size: 25px;
+    color: #4659FF;
+    margin-left: 4px;
+}
+
+.fa-circle{
+    font-size: 5px;
+    color: #4659FF;
+}
+
+.links{
+    width: 45px;
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left:50%;
+    bottom: 10.5%;
+    transform: translateX(50%);
+}
+
+.advantages_section{
+    background:white url(../img/bg&polygons.png) bottom center;
+    background-size: contain;
+    background-repeat:no-repeat;
+    width: 100%;
+}
+
+.our_advantages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: -6% auto 0 ;
+}
+
+.ad_text{
+    width: 35%;
+    margin-left: 7%;
+}
+
+.ad_title{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #2A2FA3;
+}
+
+.ad_small_text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 155%;
+    color: #222A3F;
+    width: 90%;
+    margin-top: 40px;
+}
+
+.bold_text{
+    font-weight: 600;
+}
+
+.ad_icon{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    width: 60%;
+    margin-top: 5%;
+}
+
+.game_icon{
+    width: 286px;
+    height: 286px;
+    background: #ffffff;
+    box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
+    border-radius: 28px;
+    position: relative;
+}
+.game_icon:first-child{
+    margin-top: -5%;
+    margin-left: 15%;
+}
+.game_icon:nth-child(2){
+    margin-left: 12%;
+    margin-top: 5%;
+}
+.game_icon:nth-child(3){
+    margin-left: 10%;
+    margin-top: -5%;
+}
+.game_icon:last-child{
+    margin-left: 10%;
+    margin-top: 12%;
+}
+
+.more_info{
+    width: 36px;
+    height: 36px;
+    opacity: 0.8;
+    position: absolute;
+    top: 10px;
+    left: 230px;
+}
+
+.polygon{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    z-index: 1;
+}
+
+.vector{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+
+.game_icon_text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #222A3F;
+    position: absolute;
+    top: 220px;
+    left: 70px;  
+    text-align: center;
+}
+.space-ok{
+    left: 72px;  
+}
+.skip{
+    margin-left:20px;
+}
+.skip2{
+    margin-left:10px;
+}
+.game_header{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.game_big_title{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 90%;
+    color: #FFFFFF;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.game_text{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 104px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 5%;
+}
+
+.game_middle{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.game_small_text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.btn_game{
+    width: 267px;
+    height: 72px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 20px 30px;
+    margin-right: 20%;
+}
+
+.fa-eye{
+    color: #2A2FA3 ;
+    font-size: 30px;
+}
+
+.btn_text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #363078;
+    margin-right: 15px;
+}
+
+.game_all{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:400px;
+    left: 5%;
+    
+}
+
+.game_box{
+    position: absolute;
+    width: 340px;
+    height: 312px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
+    border-radius: 30px;
+    left: 0px;
+    transition: 1s;
+}
+
+/* .game_box:first-child{
+
+} */
+
+.game_box:nth-child(2){
+    left: 29%;
+}
+
+.game_box:nth-child(3){
+    left: 57%;
+}
+
+.game_box:last-child{
+    left: 85%;
+}
+
+
+
+.game_box:hover{
+    width: 367px;
+    height: 344px;
+}
+
+.game_img{
+    width: 260px;
+    height: 346px;
+    background: url(bath-trouble-bg-1.jpg);
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -130px;
+    transition: 1s;
+}
+
+.game_img:hover{
+    width: 279px;
+    height: 382px;
+}
+
+.rating{
+    position: relative;
+    top: -325px;
+    left: 50px;
+    height: 42px;
+    width: 54px;
+    border-radius: 14px;
+    background: #363078;
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.btn_container{
+    width: 255px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.btn_game_box{
+    background: #FFFFFF;
+    border: 2px solid #F2F4F9;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    padding: 10px 10px 12px;
+    margin-top: -30px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #9594AA;
+}
+.lim{
+    margin-right: 10px;
+}
+
+
+
+/* .game_second_img{
+    
+}
+
+.second_rating{
+   
+} */
+
+.second_dtn_container{
+justify-content: center;
+}
+
+.all_btn_footer_game{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12%;
+    margin-top: 650px;
+    padding-bottom: 2%;
+    filter: drop-shadow(0px 2px 14px rgba(61, 70, 118, 0.14));
+}
+
+.btn_game_footer{
+    width: 94px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    border: none;
+}
+
+.button_footer{
+    font-size: 33px;
+    color: #4659FF; 
+}
+
+.type_section{
+    width: 100%;
+    background:white url(../img/bg&polygons_floors.png) top right no-repeat;
+    background-size: contain;
+    margin-top: -130px;
+}
+.space-for-floors{
+    width: 100%;
+    height: 180px;
+    background-color: white;
+}
+
+.header_type{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.type_title{
+    text-align: center;
+}
+
+.type_description{
+    font-family: "Dosis",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    text-align: center;
+    color: #222A3F;
+    margin-top: 38px;
+    margin-bottom: 60px;
+}
+
+.btn_type_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.btn_type{
+    width: 229px;
+    height: 72px;
+    border: 2.5px solid #F2F4F9;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #9A98AF;
+}
+
+.btn_type:first-child{
+    color: #2376F2;
+}
+
+.main_type{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.img_type{
+    width: 100%;
+}
+
+.main_img_background{
+    width: 616px;
+    height: 440px;
+    background: #F1F6FE;
+    border-radius: 30px;
+    z-index: 1;
+    float: right;
+    margin-right: 10%;
+}
+
+.big_img_type{
+position: relative;
+top: -30px;
+left: -5px; 
+z-index: 2;
+}
+
+.arrow{
+    position: relative;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    margin-top: -140px;
+    margin-left: 470px;
+}
+
+.small_img_type{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    margin-right: 25%;
+    margin-top: 1%;
+    
+}
+
+.small_img_type_box_text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: -100px;
+}
+
+.img_type_footer{
+    margin-top: -80px;
+}
+
+.text_type{
+    width: 85%;
+    margin-top: 8%;
+}
+
+.text_header_type{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    color: #222A3F;
+}
+
+.text_description_type{
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+.content_list{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.type_list_item{
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    margin-bottom: 20px;
+}
+
+.fa-check{
+    color: #2376F2;
+    margin-right: 20px;  
+}
+
+.price_section{
+    width: 100%;
+    background:white url(../img/bg&polygons1.png) top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -12%;
+    
+}
+
+.price_title{
+    color: #FFFFFF;
+    padding-top: 27%;
+} 
+
+.price_description{
+    color: #FFFFFF;
+}
+
+.price_content{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.price_box{
+    width: 460px;
+    height: 719px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 60px rgba(61, 70, 118, 0.1);
+    border-radius: 30px;
+    margin-bottom: 20%;
+}
+.fix-text-mob{
+    margin-top: -15%;
+}
+.img_price{
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.border_img_price{
+    border-radius: 30px;
+}
+
+.text_price{
+    text-align: center;
+}
+
+.prace{
+    font-family: "Dosis", sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #311F65;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 60px;
+}
+
+.button_price{
+    width: 236px;
+    height: 66px;
+    background: linear-gradient(97.95deg, #1F5DEA 14.71%, #5C16CE 90.23%);
+    margin: 0 auto;
+}
+
+.warranty{
+    width: 100%;
+    background:white url(../img/Vector\ 18.png) center left no-repeat;
+    background-size: inherit;
+}
+
+.container_warranty{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto  ;
+}
+
+.container_warranty_icon{
+    position: absolute;
+    top: 300px;
+    left: 0%;
+    
+}
+
+.warranty_second_icon{
+    position: absolute;
+    top: 400px;
+    left: 60%;;
+}
+
+.left_section{
+    width: 100%;
+    position: relative;
+}
+
+.right_section{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 450px;
+}
+
+.bold_title{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 90%;
+    color: #2F73F6;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.warranty_title{
+    margin: 0;
+    text-align: right;
+    color: #2F73F6;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 100%;
+    margin-right: 5%;
+}
+
+.middle{
+    width: 100%;
+    background:white url(../img/bg&polygons_what\ do\ you\ get.png) bottom center no-repeat;
+    background-size: contain;
+    margin-top: -130px;
+}
+.space-for-middle{
+    width: 100%;
+    height: 480px;
+    background-color: white;
+}
+.package_title{
+   text-align:left;
+   font-size: 104px;
+}
+
+.package_text{
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 48px;
+}
+
+.package_header{
+margin-left: 20%;
+}
+
+.package_container{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto ;
+}
+
+.package_list{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.middle_item{
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    color: #222A3F;
+    margin-bottom: 20px;
+    margin-left: 85px;
+    display: flex;  
+    align-items: center;
+}
+
+.package_icon{
+    color: #9594AA;
+    padding-right: 20px;
+}
+
+.get_title{
+    margin-top: 15%;
+    color: #FFFFFF;
+}
+
+.get_description{
+    color: #FFFFFF;
+}
+
+.get_container{
+    width: 90%;
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6% auto;
+}
+
+.get_icon{
+    width: 270px;
+    height: 270px;;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
+    border-radius: 28px;
+    position: relative;
+
+}
+
+.get_text{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #222A3F; 
+}
+
+.get_footer{
+width: 100%;
+height: 50px;
+}
+
+.bottom_section{
+    width: 100%;
+    background:white url(../img/others.png) center center no-repeat;
+    background-size: contain;
+}
+
+.drive_header{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.drive_left{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.bold_title_drive{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 161px;
+    line-height: 90%;
+    text-transform: uppercase;
+    color: #2F73F6;
+    text-align: left;
+}
+
+.drive_title{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 90%;
+    text-transform: uppercase;
+    color: #2F73F6;
+    text-align: left;
+}
+
+.drive_right{
+    position: relative;
+    left: -100px;
+    top: 150px;
+}
+
+.drive_text{
+    margin-top: 18%;
+}
+
+.btn_drive{
+    width: 448px;
+    height: 72px;
+    filter: drop-shadow(0px 6px 20px rgba(61, 70, 118, 0.08));
+    margin-top: 63px;
+}
+
+.drive_eye{
+    color: #2F73F6;
+}
+
+.bonus{
+    height: 358px;
+    width: 90%;
+    background: #ffffff;
+    box-shadow: 0px 60px 100px rgba(33, 49, 133, 0.1);
+    border-radius: 30px;
+    margin: 20% auto 0;
+
+}
+
+.title_bonus{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 104px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #2A2FA3;
+    position: relative;
+    top: 69px;
+    left: 70px;
+}
+
+.text_bonus{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222A3F;
+    position: relative;
+    text-align: center;
+    top: 25px;
+    left: 100px;
+}
+
+.bonus_container{
+    width: 70%;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 280px;
+    top: 80px;
+}
+
+.input_button{
+    margin-left: 0px;
+}
+
+.bonus_name{
+    width: 300px;
+    height: 37px;
+    border:none;
+    border-bottom: 2px solid #F2F4F9;
+}
+
+.button_bonus{
+    width: 269px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(97.95deg, #1F5DEA 14.71%, #5C16CE 90.23%);
+    border-radius: 40px;
+    border: none;
+    margin-top: -20px;
+}
+.other{
+    position: relative;
+    top:-30%;
+    transform: translateY(-30%);
+}
+.other_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  auto;
+}
+
+.other_content{
+    width: 85%;
+    height: 462px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 60px rgba(61, 70, 118, 0.1);
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 100px;
+    padding: 30px;
+}
+
+.other_button{
+    margin: 15px;
+}
+.other_img{
+    margin-right: 50px;
+}
+.other_img_back{
+    width: 555px;
+    height: 462px;
+}
+
+.other_text{
+    width: 100%;
+    margin-left: 10px;
+}
+
+.other_title{
+    margin-top: 30%;
+}
+
+.other_all_icon{
+    width: 80%;
+    height: 127px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.other_icon{
+    position: relative;
+    z-index: 1;
+
+}
+
+.other_polygon{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.other_vector{
+    position: relative;
+    left: 45px;
+    top: -50px;
+}
+
+.other_group{
+    top: 0;
+}
+
+.vector_group{
+    top: -25px;
+    left: -46px;
+}
+
+.other_rating{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 120%;
+    text-align: right;
+    color: #9594AA;
+}
+
+.other_icon_text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #222A3F;
+    margin-top: 10px;
+}
+
+.taq_text{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.faq_title{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.faq_list{
+    width: 85%;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto 30px;
+}
+
+.faq_item_text{
+    width: 100%;
+    height: 304px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
+    border-radius: 30px;
+}
+
+.faq_item{
+    width: 100%;
+    height: 96px;
+    background: #F2F4F9;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq_box_item_text{
+    width: 100%;
+    display: flex;
+    margin: 40px auto ;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    color: #222A3F;
+}
+
+.faq_dox_item{
+    margin-left: 70px;
+    font-size: 22px;
+}
+
+.faq_item_title{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120%;
+    color: #222A3F;
+    margin-left: 40px;
+}
+
+
+.fa-chevron-down,.fa-chevron-up{
+    width: 14.14px;
+    height: 14.14px;
+    color: #2F73F6;
+    box-sizing: border-box;
+    font-size: 25px;
+    margin-right: 34px;
+}
+
+.faq_button{
+    margin-top: 50px;
+    width:260px;
+    height: 72px;
+    margin-bottom: 10%;
+}
+
+.contact{
+    width: 100%;
+    background:white url(../img/Vector\ 14.png) left bottom no-repeat;
+    
+   
+}
+
+.contact_container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto  ;
+}
+
+.cont_left_box{
+    width: 660px;
+    height: 739px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 60px rgba(61, 70, 118, 0.1);
+    border-radius: 60px;
+    
+}
+
+.cont_title{
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    color: #222A3F;
+    margin-top: 12%;
+    margin-left: 25%;
+}
+
+.cont_form{
+    width: 460px;
+    height: 319px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 13%;
+    margin-top: 15%;
+}
+
+.cont_name{
+    width: 460px;
+    height: 37px;
+}
+
+.tetx_name{
+    width: 460px;
+    height: 149px; 
+    border: none;
+    border-bottom: 2px solid #F2F4F9;
+}
+
+.button_cont{
+    width: 302px;
+    margin-top: 6%;
+    margin-left: 25%;
+}
+
+.cont_right_box{
+    margin-left: 5%;
+}
+
+.contact_us{
+    font-family: "Patrick Hand", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #2A2FA3;
+}
+
+.cont_text{
+    margin-top: 5%;
+    line-height: 130%;
+    margin-bottom: 4%;
+}
+
+.cont_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont_icon{
+    margin-top: 15%;
+    margin-left: -5%;
+}
+
+.cont_info_text{
+    margin-left: 25%;
+    margin-top: -15%;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 120%;
+    color: #363078;
+}
+
+.footer{
+    width: 100%;
+    background:white url(../img/footer.png) right bottom no-repeat;
+}
+
+.footer_container{
+    width: 100%;
+    height: 516px;
+    padding-top: 0%;
+}
+
+.footer_links{
+    width: 202px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto ;
+    position: relative;
+    top: 65%;
+}
+
+.menu_footer{
+    margin: 0 auto;
+    padding-top: 15%;
+    padding-left: 20%;
+}
+
+.footer_last_text{
+    position: relative;
+    width:50%;
+    color: white;
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    float: left;
+    top:60%;
+    left:10%;
+}
+
+
+@media(min-width:992px) and (max-width:1450px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .section_header{
+        width: 100%;
+        background:white url(../img/adapt/bg\ img.png) bottom center no-repeat;
+        background-size: cover;
+    }
+
+    
+    .middle{
+        background-size: 100% 60%;
+    }
+
+    .type_section{
+        background-size: 15% 80%;
+    }
+
+    .warranty{
+        background-size: 15% 60%;
+    }
+
+    .bottom_section{
+        background-size: 100% 68%;
+    }
+
+    .contact{
+        background-size: 50% 75%;
+    }
+
+    .big_text_header{
+        font-size: 80px;
+    }
+
+    .text_header{
+        margin-left: 15%;
+    }
+
+    .small_text_header{
+        font-size: 18px;
+    }
+    .menu{
+        position: absolute;
+        left: 32%;
+        width: 60%;
+        margin-right: 5%;
+        margin-left: 5%;
+      
+    }
+
+    li .link{
+        margin: 0 auto;
+    }
+
+    .button{
+        width: 250px;
+    }
+
+    .button_text{
+        font-size: 16px;
+        padding-left: 6%;
+    }
+
+    .links{
+        left: 4%;
+    }
+
+    .advantages_section{
+        background:white url(../img/bg&polygons.png) bottom center;
+        background-size: 100% 70%;
+        background-repeat:no-repeat;
+        width: 100%;
+    }
+  
+    .ad_title{
+        font-size: 65px;
+        float: center;
+        margin-left: -80px;
+    }
+
+    .ad_small_text{
+        font-size: 19px;
+        float: left;
+        margin-left: -80px;
+    }
+
+    .ad_icon{
+        width: 100%;
+        margin-top: -10%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .game_icon{
+        position: relative;
+    }
+    .game_icon-adapt{
+        width: 286px;
+        height: 286px;
+        background: #ffffff;
+        box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
+        border-radius: 28px;
+        position: relative;
+        margin-top: 5%;
+    }
+    .toool{
+        position: relative;
+        margin-top: 40%;
+    }
+    .saafe{
+        margin-left:15%;
+    }
+
+
+    .game_icon:first-child {
+        position: relative;
+        top: 350px;
+        left: -140px;
+    }
+
+    .game_icon:nth-child(2){
+           position: relative;
+            top: 100px;
+            left: 220px;
+    }
+
+    .game_icon:nth-child(3){
+        position: relative;
+        top: 100px;
+        left: -220px;
+    }
+
+    .game_icon:last-child{
+        position: relative;
+        top: -150px;
+        left: 130px;
+    }
+.game_header{
+  margin-top: 50px;
+}
+    .game_big_title{
+        font-size: 170px;
+    }
+
+    .game_text{
+        font-size: 80px;
+    }
+
+    .btn_game{
+        margin-right: 5%;
+        width: 20%;
+    }
+
+    .game_img{
+        width: 90%;
+    }
+
+
+    .game_box{
+        width: 25%;
+    } 
+    .game_box:hover{
+        display: none;
+    }
+
+    .games_list{
+        margin-left: -100px;
+    }
+    .all_btn_footer_game{
+        margin-left: 13%;
+        margin-top: 600px;
+    }
+
+    .type_description{
+        font-size: 16px;
+    }
+
+    .btn_type_box{
+        width: 70%;
+    }
+
+    .btn_type{
+        width: 170px;
+        height: 53px;
+        font-size: 17px;
+    }
+
+    .img_type{
+        margin-left: 8%;
+    }
+
+    .main_img_background{
+        width: 500px;
+        height: 340px;
+    }
+
+    .big_img_type{
+    width: 540px;
+    height: 370px;
+    top: -20px;
+    }
+
+    .arrow {
+        margin-top: -120px;
+        margin-left: 400px;
+    }
+
+    .button_icon{
+        width: 40px;
+        height: 40px;
+    }
+
+    .text_header_type{
+       font-size: 28px; 
+       margin-top: 90%;
+    }
+
+    .text_description_type{
+        font-style: 16px;
+        line-height: 120%;
+    }
+
+    .main_type{
+        margin-top: -20%;
+    }
+
+    .text_type{
+        margin-top: 0%;
+    }
+
+    .small_img_type{
+        float: none;
+        margin-left: 12%;
+    }
+
+    .img_type{
+        margin-top: 20%;
+    }
+
+    .content_list{
+        width: 100%;
+    }
+
+    .type_list_item{
+        font-size: 16px;
+    }
+
+    .fa-check{
+        margin-right: 10px;
+    }
+
+    .price_box{
+        width: 360px;
+        height: 600px;
+    }
+
+    .img_price{
+        width: 360px;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .border_img_price{
+       width: 360px;
+       height: 360px;
+    }
+
+    .price_content{
+        width: 75%;
+    }
+
+    .text_price{
+        margin-top: -10%;
+    }
+
+    .prace{
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    .bold_title{
+        font-size: 106px;
+    }
+
+    .warranty_title{
+        font-size: 58px;
+    }
+
+    .text_warranty{
+        margin-top: -100px;
+    }
+
+    .container_warranty_icon{
+        top: 200px;
+        right: 0px;
+    }
+
+
+    .warranty_second_icon{
+        left:350px; 
+        top: 450px;
+    }
+
+    .package_title, .package_text{
+        text-align: left;
+    }
+    .package_title{
+        margin-top: 10%;
+        margin-left:1%;
+    }
+
+    .package_list{
+        margin-left: 5%;
+    }
+
+    .package_container{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .package_header{
+        margin-left: 13%;
+    }
+
+    .rectangle_pack{
+        width: 500px;
+        height: 400px;
+    }
+    
+    .middle_item{
+        font-size: 18px;
+    }
+
+    .get_container{
+        width: 100%;
+    }
+
+    .get_icon{
+        width: 220px;
+        height: 218px;
+    }
+
+    .polygon_get{
+        left: 40px;
+        top: 20px;
+    }
+
+    .vector_get{
+        left: 35px;
+        top: 20px;
+    }
+
+    .get_text{
+        top: 180px;
+        left:55px;
+    }
+
+
+    .drive_left{
+        margin-left: 0%;
+        width: 60%;
+    }
+    
+    .company_text{
+        font-size: 12px;
+        line-height: 90%;
+    }
+    .bold_title_drive{
+        font-size: 100px;
+    }
+
+    .drive_title{
+        font-size: 54px;
+    }
+     
+    .drive_right{
+  
+        margin-right: -10%;
+        width: 45%;
+    }
+
+    .btn_drive{
+        width: 400px;
+    }
+
+    .btn_text{
+        font-size: 16px ;
+        margin-right: 0;
+    }
+
+    .bonus{
+        height: 311px;
+    }
+
+    .title_bonus{
+        font-size: 87px;
+        top: 26px;
+        left: 23px;
+    }
+
+    .text_bonus{
+        font-size: 26px;
+        top: -22px;
+        left:140px;
+    }
+
+    .bonus_container{
+        top: 50px;
+    }
+
+    .button_bonus{
+        margin-right: 50px ;
+        width: 200px;
+        height: 59px;
+    }
+
+    .input_button{
+        margin-left: -202px;
+    }
+
+    .other_content{
+        height: 420px;
+        padding: 10px;
+        margin: 25px auto;
+    }
+
+    .other_img_back{
+        width: 370px;
+        height: 340px;
+        margin-top: px;
+    }
+
+    .other_text{
+        margin-top: -30%;
+        margin-left: 2%;
+        width: 100%;
+    }
+
+    .text_other_type{
+        padding-right: 0;
+        font-size: 18px;
+    }
+
+    .text_other{
+        margin-top: 0px; 
+    }
+
+    .other_all_icon{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .other_icon{
+        position: relative;
+        left:5%
+    }
+
+
+    .other_polygon{
+        position: absolute;
+    }
+
+    .other_vector{
+        position: absolute;
+    }
+
+    .other_icon_text{
+        margin-right:40px;
+        font-size: 15px;
+    }
+
+    .other_rating{
+        margin-top: 265px;
+    }
+
+    .faq_title{
+        text-align: center;
+    }
+
+    .taq_text{
+        text-align: center;
+    }
+
+    .faq_item_title{
+        font-size: 25px;
+    }
+
+    .faq_button{
+        width: 200px;
+        height: 60px;
+    }
+    
+    .contact_container{
+        width: 95%;
+    }
+
+    .contact_us{
+        font-size: 60px;
+    }
+
+    .cont_text{
+        margin-bottom: 50px;
+    }
+
+    .cont_title{
+        margin-left: 18%;
+        font-style: 28px;
+    }
+
+    .cont_name{
+        width: 386px;
+    }
+
+    .menu_footer{
+        padding-top: 62%;
+         padding-left: 6%;  
+    }
+
+    .support{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .cont_icon{
+        position: relative;
+        
+    }
+
+    .other_group{
+        position: absolute;
+        top: -80px;
+        left: -20px;
+        
+    }
+
+    .vector_group{
+        position: absolute;
+        top: -50px;
+        left: 10px;
+    }
+    .nav{
+        top:30%;
+    }
+}
