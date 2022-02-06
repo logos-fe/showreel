@@ -900,9 +900,9 @@ b {
   margin-top: 12%;
 }
 .crown {
-  position: absolute;
-  margin-left: -2%;
-  margin-top: 36%;
+  position: relative;
+  left: -12%;
+  top: 85%;
 }
 .games-bg {
   background-position: 80% 100%;
@@ -913,21 +913,23 @@ b {
   margin-top: 28%;
 }
 .games_info {
-  margin-top: 32%;
-  margin-left: 3%;
+  margin-top: 10%;
+  margin-left: 0;
 }
 .button-all-games {
-  margin-top: 48%;
+  margin-top: 0;
   margin-left: 70%;
   z-index: 6;
 }
 .game-list {
   background-image: url(./img/list\ of\ games.png);
   background-repeat: no-repeat;
-  width: 1250px;
+  width: 90%;
   height: 500px;
-  margin-left: -81%;
-  margin-top: 1%;
+  margin-left: 0;
+  margin-top: 0;
+  top: 50%;
+  position: absolute;
 }
 .games_header {
   position: absolute;
@@ -950,6 +952,9 @@ b {
   position: static;
   width: 240px;
   height: 65px;
+}
+.button-price {
+  left: 3%;
 }
 .button-price1 {
   margin-left: 23%;
@@ -998,13 +1003,19 @@ b {
   background-size: 95%;
 }
 .bonus-button {
+  position: absolute;
   width: 200px;
   height: 55px;
   background-position: 57% 40%;
   background-size: 128%;
-  margin-top: 14%;
-  margin-left: 69%;
+  left: 5%;
+  top: 0%;
   z-index: 10;
+}
+.button-price1,
+.button-price2 {
+  margin-left: 0;
+  margin-top: 0;
 }
 .dev-header {
   margin-top: 55%;
@@ -1058,7 +1069,7 @@ b {
 
 .nav_container {
   max-width: 50%;
-  margin-left: 40%;
+  margin-left: 30%;
 }
 .nav_button {
   font-size: 18px;
@@ -1071,7 +1082,7 @@ b {
 }
 .logo {
   position: absolute;
-  left: -5%;
+  left: 30%;
   background-size: 25%;
   top:3%;
 }
@@ -1088,13 +1099,13 @@ b {
 }
 .header-icons {
   flex-direction: row;
-  top: 35%;
+  top: 30%;
   justify-content: space-between;
 }
 .button-start {
   position: absolute;
-  top: 20%;
-  left: -15%;
+  top: 14%;
+  left: -20%;
 }
 .polygons-bg {
   background-size: 60%;
@@ -1103,7 +1114,7 @@ b {
 }
 .header-bg {
   background-position: 50% 0%;
-  background-size: 135%;
+  background-size: 100%;
   height: 950px;
 }
 
@@ -1112,11 +1123,12 @@ b {
 .advantages_info {
   position: relative;
   top: 0%;
-  left: -20%;
+  left: 0%;
   width: 35%;
 }
 .advantages_items {
-  margin-left: 20%;
+  margin-left: 35%;
+  z-index: 10;
 }
 .brain_img,
 .finger_img,
@@ -1129,8 +1141,8 @@ b {
   margin-top: 40%;
 }
 .crown {
-  margin-top: 48%;
-  margin-left: -2%;
+  margin-top: 30%;
+  margin-left: 30%;
 }
 .finger {
   margin-left: -2%;
@@ -1143,7 +1155,7 @@ b {
   background-size: 100%;
   background-position: 0% 0%;
   width: 100%;
-  height: 1000px;
+  height: 1100px;
 }
 .advantages {
   height: 600px;
@@ -1175,7 +1187,7 @@ b {
 .game-list {
   top: 50%;
   background-size: 60%;
-  left: 11%;
+  left: 25%;
 }
 .flors_info {
   background-size: 78%;
@@ -1185,7 +1197,7 @@ b {
 }
 .flors {
   background-size: 15%;
-  height: 700px;
+  height: 800px;
   width: 100%;
 }
 .flors_nav {
@@ -1200,7 +1212,7 @@ b {
   line-height: 40px;
 }
 .price {
-  height: 1100px;
+  height: 1500px;
   background-size: 100%;
 }
 .price_img {
@@ -1216,63 +1228,44 @@ b {
   margin-top: 20%;
 }
 .card_bg {
-  background-size: 85%;
+  background-size: 100%;
   justify-content: center;
 }
-.price_cards {
-  height: 700px;
-  padding-left: 5%;
-  margin-top: -3%;
+ .price_cards {
+  height:1000px;
 }
+
 .card_one_img,
 .card_two_img {
  height: 280px;
  width: 280px;
 }
-.card_one_img {
+/* .card_one_img {
   position: relative;
   top: 50px;
   left: 50px;
-}
+} */
 .card_two_img {
   position: relative;
   top: 35px;
-  left: 20px;
+  left: 15%;
 }
-.card_one_price {
-  position: relative;
-  left: 20%;
-  top: 15%;
-}
-.card_one_name {
-  position: relative;
-  right: 32%;
-  top: 8%; 
-}
-.card_two_name {
-  position: relative;
-  left: 25%;
-}
-.card_two_price {
-  position: relative;
-  right: 17%;
-  top: 15%;
-}
+
 .button-price {
   position: relative;
-  left: 19%;
-  bottom: 23%;
+  left: -7%;
+  bottom: 16%;
 }
 .button-price1 {
   position: relative;
-  right: 7%;
-}
+} 
 .warranty {
-  background-size: 85%;
-  height: 700px;
+  position: relative;
+  background-size: 100%;
+  height: 1000px;
 }
 .warranty-info {
-  background-size: 75%;
+  background-size: 90%;
   margin-left: 3%;
 }
 .package {
@@ -1285,7 +1278,7 @@ b {
 .you-get {
   background-size: 100%;
   position: relative;
-  height: 800px;
+  height: 900px;
 }
 .you_info {
   position: relative;
@@ -1321,7 +1314,7 @@ b {
 .developments {
   margin-top: 0;
   background-size: 100%;
-  height: 1100px;
+  height: 1300px;
 }
 .bonus {
   background-size: 100%;
@@ -1343,7 +1336,7 @@ b {
   position: relative;
   margin-top: 0;
   margin-left: 0;
-  top: 35%;
+  top: 33%;
   left: 30%;
   width: 800px;
   height: 250px;
@@ -1363,14 +1356,15 @@ b {
   height: 500px;
   background-size: 90%;
   background-repeat: no-repeat;
-  margin-top: 50%;
+  margin-top: 44%;
+  left: 5%;
 }
 .dev-scroll-left,
 .dev-scroll-right {
-  top: 60%;
+  top: 55%;
 }
 .dev-scroll-right {
-  right: 3.5%;
+  right: 7%;
 }
 .contact-us {
   background-repeat: no-repeat;
@@ -1387,6 +1381,7 @@ b {
   width: 400px;
   height: 100px;
   background-size: 65%;
+  left: 15%;
 }
 .contact-form {
   background-size: 100%;
@@ -1429,5 +1424,248 @@ b {
   margin-left: 15%;
   background-size: 30%;
   height: 20px;
+}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 999px) {
+.header-bg {
+  background-image: url(./img/bg\ img\ 768.png);
+  background-size: 100%;
+  height: 1000px;
+  z-index: 10;
+}
+.nav_button {
+  font-size: 14px;
+}
+.logo-bg {
+  background-image: url(./img/logo\ bg\ 768.png);
+}
+.logo {
+  background-image: url(./img/KIDS-jump-TECH-2\ 2\ 768.png);
+  left: 5%;
+}
+.polygons-bg {
+  left: 5%;
+  background-size: 100%;
+}
+.header-icons {
+  flex-direction: row;
+  top: 60%;
+}
+.big_text {
+  font-size: 40px;
+}
+.main-text {
+  margin-left: 5%;
+}
+.small_text {
+  font-size: 16px;
+}
+.button-start {
+  margin-top: 0%;
+  margin-left: 0%;
+  top: 50%;
+  left: 5%;
+}
+.advantages_header {
+  font-size: 50px;
+}
+.advantages_text {
+  font-size: 18px;
+}
+.advantages_info {
+  margin-left: 4%;
+}
+.brain,
+.finger,
+.crown_img {
+  display: none;
+}
+.crown {
+  background-image: url(./img/arrow.png);
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 60px;
+  top: 65%;
+  left: -70%;
+}
+.games-bg {
+  background-image: url(./img/bg&polygons\ -\ 2_90+\ games\ 768.png);
+  width: 100%;
+  height: 1200px;
+  background-size: 100%;
+}
+.button-all-games {
+  display: none;
+}
+.game-list {
+  background-image: url(./img/list\ of\ games\ 768.png);
+  width: 750px;
+  right: 0px;
+  top: 35%;
+}
+.games_info {
+  left: 0;
+}
+.games_info {
+  top: 10%;
+  left: 8%;
+}
+.games_header {
+  top: -15%;
+}
+.games_header_img {
+  width: 90%;
+  height: 30%;
+}
+.flors {
+  height: 1300px;
+}
+.flors_info {
+  background-image: url(./img/3_types\ of\ floors\ 768.png);
+  height: 1300px;
+  background-size: 100%;
+}
+.flor_button {
+  width: 220px;
+  height: 45px;
+  margin: 0 20;
+  line-height: 45px;
+  font-size: 15px;
+}
+.flors_nav {
+  margin-top: 25%;
+  margin-left: 5%;
+}
+.price {
+  background-image: url(./img/bg&polygons\ -\ 4_pricev\ 768.png);
+  background-size: cover;
+  height: 1400px;
+}
+.price_cards,
+.button-price,
+.price_img,
+.price_text {
+  display: none;
+}
+.price_info {
+  background-image: url(./img/4_price\ 768.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  height: 1000px;
+  margin-top: 40%;
+}
+.warranty {
+  background: url(./img/bg&polygons\ -\ 5_warranty\ 768.png);
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.warranty-info {
+  background-image: url(./img/5_warranty\ 768.png);
+  margin-left: 5%;
+}
+.package {
+  background-image: url(./img/6_what\ is\ in\ the\ package_\ 768.png);
+  margin-left: 5%;
+  height: 700px;
+}
+.you-get {
+  background-size: 100%;
+  height: 1000px;
+  position: relative;
+  margin-top: 0;
+  background-image: url(./img/bg&polygons\ -\ 7_what\ do\ you\ get_768.png);
+}
+.you_info {
+  margin-top: 0;
+  background-image: url(./img/7_what\ do\ you\ get_768.png);
+  background-repeat: no-repeat;
+  display: block;
+  background-position: 100% 80%;
+  height: 1000px;
+}
+.you_img,
+.you_text,
+.you_list {
+  display: none;
+}
+.test-bg,
+.button-test {
+  display: none;
+}
+.test-drive {
+  display: block;
+  background-image: url(./img/8_\ free\ test\ drive\ 768.png);
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  background-position: 50% 0%;
+}
+.developments {
+  margin-top: 0;
+  background: url(./img/10_other\ developments\ 768.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1300px;
+}
+.bonus {
+  background-image: url(./img/9_bonus\ 768.png);
+  margin-left: 5%;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+.bonus-button,
+.dev-scroll-left,
+.dev-scroll-right,
+.dev-header {
+  display: none;
+}
+.dev-box {
+  background-image: url(./img/developments\ 768.png);
+  margin-top: 0;
+  width: 100%;
+  height: 800px;
+  margin-left: 0;
+  top: 30%;
+}
+.contact-us {
+  background: url(./img/12_contact\ us\ 768.png);
+  background-repeat: no-repeat;
+}
+.contact-block {
+  display: none;
+}
+.contact_us_768 {
+  display: block;
+  background-image: url(./img/12_contact\ us\ 768.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1100px;
+}
+.footer-bg {
+  background-image: url(./img/Vector\ 17\ 768\ footer.png);
+  background-repeat: no-repeat;
+  height: 200px;
+  bottom: 0;
+  background-size: 100%;
+}
+.footer-copyright {
+margin-top: 15%;
+left: -20%;
+}
+.footer-icons {
+  margin-top: 0;
+  margin-top: 10%;
+}
+.footer-menu {
+  height: 50px;
+  top: 30%;
+}
+.footer_button {
+  margin-top: 2%;
+  margin-left: 50px;
 }
 }
