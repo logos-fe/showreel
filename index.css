@@ -1705,6 +1705,7 @@ left: -20%;
   top: 10px;
   position: relative;
   background-repeat: no-repeat;
+  width: 60px;
 }
 .polygons-bg {
   display: none;
