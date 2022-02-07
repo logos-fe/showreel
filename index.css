@@ -42,7 +42,7 @@ body {
   text-transform: uppercase;
   color: white;
   cursor: pointer;
-  z-index: 1;
+  z-index: 10;
 }
 .nav_button:after {
   display: block;
@@ -69,7 +69,7 @@ body {
 }
 .logo {
   background-image: url(./img/KIDS-jump-TECH-2\ 2.png);
-  width: 100%;
+  width: 200px;
   z-index: 10;
   height: 120px;
   left: 241px;
