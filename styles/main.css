@@ -107,7 +107,7 @@ p {
 .blocks-text {
     text-align: center;
     margin: 220px 44px 0;
-    font-family: "Dosis";    
+    font-family: "Dosis";
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -221,7 +221,7 @@ p {
     border-radius: 30px;
     background: #FFFFFF;
     height: 344px;
-    width: 367px;    
+    width: 367px;
     margin-top: -10px;
     box-shadow: 1px 6px 20px rgb(61 70 118);
 }
@@ -387,7 +387,7 @@ p {
 
 .f-menu {
     height: 72px;
-    width: 252px;    
+    width: 252px;
     border-radius: 40px;
     position: relative;
     box-shadow: 1px 6px 20px rgb(61 70 118);
@@ -957,7 +957,7 @@ p {
     text-align: center;
     text-transform: uppercase;
     color: #363078;
-    position: absolute;    
+    position: absolute;
     top: 25px;
     left: 75px;
 }
@@ -991,7 +991,7 @@ p {
     display: flex;
     flex-direction: column;
     height: 358px;
-    width: 90%;
+    width: 1540;
     border-radius: 30px;
     background-color: #FFFFFF;
     box-shadow: 1px 6px 20px rgb(61 70 118);
@@ -1181,7 +1181,7 @@ p {
     font-weight: 600;
     line-height: 38px;
     letter-spacing: 0em;
-    text-align: left;   
+    text-align: left;
     top: 80px;
 }
 
@@ -1193,7 +1193,7 @@ p {
     font-weight: 500;
     line-height: 31px;
     letter-spacing: 0em;
-    text-align: left;   
+    text-align: left;
     top: 135px;
 }
 
@@ -1205,7 +1205,7 @@ p {
 .development-content-bottom {
     display: flex;
     justify-content: space-between;
-    align-content: space-between;    
+    align-content: space-between;
     width: 100%;
     top: 388px;
 }
@@ -1483,5 +1483,12 @@ p {
 
     .container-contact {
         width: 90%;
+    }
+
+    .bonus-button {}
+
+    .bonus {
+        width: 100%;
+
     }
 }
