@@ -1,37 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;800&display=swap');
-body{
+body {
     overflow-x: hidden;
 }
 
-.header{
+.header {
     background: url(./foto/fon/header.png) no-repeat;
     width: 100%;
     height: 1290px;
 }
-.header-logo{
+
+.header-logo {
     background: url(./foto/fon/logo.bg.png) no-repeat;
     width: 40%;
     height: 20%;
 }
-.logo{
+
+.logo {
     margin: 20px 210px;
     display: inline-block;
     transition: 1s;
     cursor: pointer;
 }
-.logo:hover{
+
+.logo:hover {
     transform: scale(1.2);
     text-shadow: white;
 }
-.header-menu-nav{
+
+.header-menu-nav {
     width: 100%;
     position: relative;
     left: 26%;
     top: -200px;
     cursor: pointer;
 }
-.header-menu__item{
-    color:  #E8E6F8;
+
+.header-menu__item {
+    color: #E8E6F8;
     font-family: Dosis;
     font-size: 16px;
     text-transform: uppercase;
@@ -41,56 +46,65 @@ body{
     margin-left: 2%;
     text-decoration: none;
 }
-.header-menu__item:hover{
+
+.header-menu__item:hover {
     text-decoration: underline;
-    color: black;    
+    color: black;
 }
-.header-title{
+
+.header-title {
     width: 35%;
     position: relative;
     left: 16%;
-    top: -40px;
 }
-.header-ttl{
+
+.header-ttl {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 120px;
+    font-size: 100px;
     line-height: 120%;
     text-transform: uppercase;
     color: #FCFDFF;
     margin-bottom: 50px;
 }
-.header-subttl{
+
+.header-subttl {
     font-family: Dosis;
     font-size: 24px;
     line-height: 130%;
     color: #FFFFFF;
     padding: 10px;
 }
-.header-button{
+
+.header-button {
     display: flex;
 }
-.header-link{
+
+.header-link {
     display: grid;
-    position:relative;
+    position: relative;
     top: -40px;
 }
-.header-link-foto{
+
+.header-link-foto {
     margin-bottom: 30px;
     transition: 0.5s;
     cursor: pointer;
     border-radius: 50%;
 }
-.header-link-foto:hover{
+
+.header-link-foto:hover {
     transform: scale(1.2);
     box-shadow: 1px 1px 15px black;
 }
-.header-button{
+
+.header-button {
     margin: 30px 130px;
 }
+
 .header-btn,
-.game-btn-view{
+.game-btn-view {
     font-family: "Dosis";
     text-align: center;
     text-transform: uppercase;
@@ -104,31 +118,36 @@ body{
     height: 60px;
     width: 350px;
 }
-.header-btn:hover{
+
+.header-btn:hover {
     color: #FFFFFF;
     background: linear-gradient(92.57deg, #2F8FFF 0%, #2F73F6 100%);
     box-shadow: 0px 10px 36px rgba(47, 230, 255, 0.2);
 }
-.header-btn-foto{
+
+.header-btn-foto {
     position: relative;
     left: 10%;
     top: 10px;
     height: 35px;
     text-align: center;
 }
-.advantages{
+
+.advantages {
     background: url(./foto/fon/advantages.png) center top no-repeat;
     width: 100%;
     height: 550px;
     display: grid;
-    grid-template-columns: 42% 27%;
+    grid-template-columns: 50% 50%;
 }
-.advantages-box-title{
-    width: 35%;
+
+.advantages-box-title {
+    width: 50%;
     position: relative;
     left: 30%;
 }
-.advantages-title{
+
+.advantages-title {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
@@ -137,87 +156,95 @@ body{
     text-transform: uppercase;
     color: #2A2FA3;
 }
-.advantages-subtitle{
+
+.advantages-subtitle {
     font-family: Dosis;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 155%;
     color: #222A3F;
+    padding: 20px;
     width: 170%;
 }
 
-.advantages-box-icons,
-.warranty-icons{
+.advantages-box-icons {
     position: relative;
+    width: 70%;
 }
+
 .advantages-icons,
-.warranty-icons{
+.warranty-icons {
     margin: 30px;
     padding: 10px;
-    width: 40%;
+    width: 30%;
     box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
     border-radius: 28px;
     background: white;
-    text-align: center;   
+    text-align: center;
     cursor: pointer;
-    transition: 0.5s; 
+    transition: 0.5s;
 }
+
 .advantages-icons:hover,
-.warranty-icons:hover{
+.warranty-icons:hover {
     transform: scale(1.2);
     box-shadow: 0px 6px 10px rgba(61, 70, 118);
 }
 
 .advantages-foto,
-.warranty-foto{
+.warranty-foto {
     width: 90%;
-    
 }
-.horse{
+
+.horse {
     position: absolute;
-    left:40% ;
+    left: 40%;
 }
-.technology{
+
+.technology {
     position: absolute;
-    left: 20%;
+    left: 30%;
     top: 60%;
-   
 }
-.touch{
-    position: absolute;
-    left: 100% ;
-    top:150px;
 
-}
-.crown{
+.touch {
     position: absolute;
-    left: 85% ;
-    top: 70%;
-
+    left: 100%;
+    top: 150px;
 }
-.more-info{
+
+.crown {
+    position: absolute;
+    left: 85%;
+    top: 80%;
+}
+
+.more-info {
     position: relative;
     left: 40%;
 }
+
 .advantages-text,
 .warranty-text,
-.benefit-text{
+.benefit-text {
     padding: 10px;
 }
 
-.games{
+.games {
     background: url(./foto/fon/games.png) no-repeat;
     width: 100%;
     height: 1700px;
 }
-.game-title{
+
+.game-title {
     position: relative;
     left: 15%;
     top: 500px;
     width: 50%;
 }
-.game-title_number{
+
+.game-title_number {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 600;
@@ -225,7 +252,8 @@ body{
     line-height: 90%;
     color: #FFFFFF;
 }
-.game-title_text{
+
+.game-title_text {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
@@ -234,7 +262,8 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.game-subtitle{
+
+.game-subtitle {
     width: 70%;
     margin: 40px 0px;
     font-family: Dosis;
@@ -244,12 +273,14 @@ body{
     line-height: 155%;
     color: #FFFFFF;
 }
-.game-button_view{
+
+.game-button_view {
     position: relative;
     top: 400px;
     left: 70%;
 }
-.game-btn-view{
+
+.game-btn-view {
     padding: 20px;
     width: 20%;
     height: 75px;
@@ -257,17 +288,20 @@ body{
     color: #363078;
     text-transform: uppercase;
 }
-.game-btn-foto{
+
+.game-btn-foto {
     position: relative;
     left: -2%;
 }
-.game-box-game{
+
+.game-box-game {
     position: relative;
     top: 30%;
     left: 13%;
     display: flex;
 }
-.game-box{
+
+.game-box {
     background: #FFFFFF;
     margin: 4%;
     width: 40%;
@@ -276,25 +310,28 @@ body{
     box-shadow: 0px 6px 20px rgba(61, 70, 118, 0.08);
     border-radius: 30px;
 }
-.bath-trouble{
+
+.bath-trouble {
     width: 45%;
     height: 370px;
-
 }
-.game-rating{
+
+.game-rating {
     position: relative;
     top: -90px;
     left: -85px;
     z-index: 2;
 }
-.game-foto{
+
+.game-foto {
     position: relative;
     top: -150px;
     border-radius: 10px;
 }
-.game-button{
+
+.game-button {
     position: relative;
-    top:-125px;
+    top: -125px;
     padding: 10px 20px 12px;
     background: #FFFFFF;
     border: 2px solid #F2F4F9;
@@ -309,40 +346,48 @@ body{
     color: #9594AA;
     cursor: pointer;
 }
-.game-button:hover{
+
+.game-button:hover {
     color: #FFFFFF;
     background: #9594AA;
 }
-.game-btn{
+
+.game-btn {
     position: relative;
     left: 18%;
     top: 29%;
 }
+
 .game-btn_prev,
-.game-btn_next{
+.game-btn_next {
     border: none;
     border-radius: 40px;
     background: #FFFFFF;
     padding: 20px 50px;
     margin: 10px;
 }
-.game-btn_prev{
+
+.game-btn_prev {
     padding-left: 15px;
 }
-.game-btn_next{
+
+.game-btn_next {
     padding-right: 15px;
 }
-.floors{
+
+.floors {
     background: url(./foto/fon/floors.png) right no-repeat;
     width: 100%;
     height: 900px;
 }
-.floors-title{
+
+.floors-title {
     width: 50%;
     position: relative;
     left: 25%;
 }
-.floors-ttl{
+
+.floors-ttl {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
@@ -353,21 +398,24 @@ body{
     color: #2A2FA3;
     margin: 40px;
 }
-.floors-subttl{
+
+.floors-subttl {
     font-family: Dosis;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 155%;
-    text-align: center;    
+    text-align: center;
     color: #222A3F;
     margin: 40px;
 }
-.floors-button{
-    text-align: center;    
+
+.floors-button {
+    text-align: center;
 }
-.floors-btn{
-    margin:20px 50px;
+
+.floors-btn {
+    margin: 20px 50px;
     border: 2.5px solid #F2F4F9;
     box-sizing: border-box;
     border-radius: 40px;
@@ -383,49 +431,58 @@ body{
     background: white;
     cursor: pointer;
 }
-.floors-btn:hover{
+
+.floors-btn:hover {
     background: #F2F5F9;
     color: #2F8FFF;
 }
-.floors-box{
+
+.floors-box {
     display: flex;
     position: relative;
     left: 10%;
     width: 85%;
 }
-.floors-box-foto{
+
+.floors-box-foto {
     margin-right: 60px;
     width: 40%;
 }
-.floors-box-foto-progector{
+
+.floors-box-foto-progector {
     width: 100%;
 }
-.floors-box-foto-pr1{
-    width: 25%;
-}
-.floors-box-foto-pr2{
+
+.floors-box-foto-pr1 {
     width: 25%;
 }
 
-.floors-box-foto_arrowprev{
+.floors-box-foto-pr2 {
+    width: 25%;
+}
+
+.floors-box-foto_arrowprev {
     width: 20%;
     position: relative;
     top: -25%;
     left: 65%;
 }
-.floors-box-foto_arrownext{
+
+.floors-box-foto_arrownext {
     width: 20%;
     position: relative;
     top: -25%;
     left: 60%;
 }
-.floors-box-text{
+
+.floors-box-text {
     text-align: left;
     width: 40%;
     position: relative;
     left: 10%;
 }
-.floors-text_h3{
+
+.floors-text_h3 {
     font-family: Dosis;
     font-style: normal;
     font-weight: 600;
@@ -434,7 +491,8 @@ body{
     color: #222A3F;
     margin: 50px 0px 30px;
 }
-.floors-text_p{
+
+.floors-text_p {
     font-family: Dosis;
     font-style: normal;
     font-weight: 500;
@@ -443,14 +501,17 @@ body{
     color: #222A3F;
     margin-bottom: 20px;
 }
-.floors-list{
+
+.floors-list {
     display: flex;
 }
+
 .floors-list-first,
-.floors-list--second{
-    margin-right:30px;
+.floors-list--second {
+    margin-right: 30px;
 }
-.floors-list__items{
+
+.floors-list__items {
     font-family: Dosis;
     font-style: normal;
     font-weight: 500;
@@ -459,12 +520,14 @@ body{
     color: #222A3F;
     list-style-image: url(./foto/dop.foto/icon-check.png);
 }
-.price{
+
+.price {
     background: url(./foto/fon/price.png)no-repeat;
     width: 100%;
     height: 1700px;
 }
-.price-title{
+
+.price-title {
     position: relative;
     left: 25%;
     top: 20%;
@@ -472,7 +535,8 @@ body{
     text-align: center;
     width: 50%;
 }
-.price-ttl{
+
+.price-ttl {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
@@ -482,7 +546,8 @@ body{
     color: #FFFFFF;
     margin: 50px;
 }
-.price-subttl{
+
+.price-subttl {
     font-family: Dosis;
     font-style: normal;
     font-weight: 500;
@@ -491,15 +556,17 @@ body{
     text-align: center;
     color: #FFFFFF;
 }
-.price-box{
+
+.price-box {
     display: flex;
     position: relative;
     left: 17%;
     top: 25%;
     width: 70%;
 }
+
 .price-box-ceiling,
-.price-box-mobile{
+.price-box-mobile {
     background: white;
     margin: 50px;
     text-align: center;
@@ -509,12 +576,14 @@ body{
     width: 35%;
     height: 70%;
 }
-.price-foto{
+
+.price-foto {
     width: 70%;
     height: 70%;
     margin-bottom: 30px;
 }
-.pric-text{
+
+.pric-text {
     font-family: Dosis;
     font-style: normal;
     font-weight: 600;
@@ -523,7 +592,8 @@ body{
     text-align: center;
     color: #222A3F;
 }
-.price__item{
+
+.price__item {
     font-family: Dosis;
     font-style: normal;
     font-weight: 800;
@@ -532,7 +602,8 @@ body{
     color: #311F65;
     margin: 20px;
 }
-.price-button{
+
+.price-button {
     font-family: Dosis;
     font-weight: 600;
     font-size: 20px;
@@ -543,33 +614,39 @@ body{
     width: 70%;
     height: 80px;
 }
-.price-btn{
+
+.price-btn {
     width: 30%;
     position: relative;
     top: -15px;
 }
-.price-arrow{
+
+.price-arrow {
     position: relative;
     left: 15%;
 }
-.warranty{
+
+.warranty {
     background: url(./foto/fon/warranty.png)left no-repeat;
     width: 100%;
     height: 1000px;
 }
-.warranty-block-title{
+
+.warranty-block-title {
     position: relative;
-    left: 25%;
+    left: 15%;
     width: 50%;
 }
-.warranty-block-ttl{
+
+.warranty-block-ttl {
     font-family: Lifehack Sans;
     font-weight: 800;
-    font-size: 200px;
+    font-size: 170px;
     line-height: 90%;
     color: #2F73F6;
 }
-.warranty-box-subttl{
+
+.warranty-box-subttl {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
@@ -578,14 +655,15 @@ body{
     text-transform: uppercase;
     color: #2F73F6;
 }
-.warranty-block-text{
+
+.warranty-block-text {
     width: 30%;
     position: relative;
     left: 55%;
     top: -100px;
-
 }
-.warranty-box-text-title{
+
+.warranty-box-text-title {
     font-family: Dosis;
     font-style: normal;
     font-weight: 600;
@@ -594,7 +672,8 @@ body{
     color: #222A3F;
     margin-bottom: 50px;
 }
-.warranty-box-text-txt{
+
+.warranty-box-text-txt {
     font-family: Dosis;
     font-style: normal;
     font-weight: 500;
@@ -602,31 +681,41 @@ body{
     line-height: 155%;
     color: #222A3F;
 }
-.warranty-block-icon{
+
+.warranty-block-icon {
     position: relative;
     left: 15%;
     top: -700px;
     display: flex;
     width: 30%;
 }
-.hand{
+
+.warranty-icons {
+    position: relative;
+}
+
+.hand {
     position: relative;
     top: 100px;
 }
-.package{
+
+.package {
     background: url(./foto/fon/package.png)no-repeat;
     width: 100%;
     height: 200px;
 }
-.package-box{
+
+.package-box {
     position: relative;
     top: -450px;
 }
-.package-title{
+
+.package-title {
     position: relative;
     left: 22%;
 }
-.package-ttl{
+
+.package-ttl {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
@@ -635,9 +724,9 @@ body{
     text-transform: uppercase;
     color: #2A2FA3;
     margin-bottom: 40px;
-    
 }
-.package-subttl{
+
+.package-subttl {
     font-family: Dosis;
     font-style: normal;
     font-weight: 500;
@@ -646,15 +735,17 @@ body{
     color: #222A3F;
     width: 760px;
 }
-.package-contend{
+
+.package-contend {
     display: flex;
     width: 80%;
 }
-.package-list{
-    margin: 50px;
 
+.package-list {
+    margin: 50px;
 }
-.package-list__items{
+
+.package-list__items {
     padding: 7px;
     list-style-image: url(./foto/icon/icon-list.png);
     font-family: Dosis;
@@ -662,26 +753,31 @@ body{
     font-size: 20px;
     color: #222A3F;
 }
-.package-foto__item{
+
+.package-foto__item {
     border-radius: 30px;
     width: 50%;
     margin: 50px;
 }
-.benefit{
+
+.benefit {
     background: url(./foto/fon/what.do.you.get.png)no-repeat;
     width: 100%;
     height: 1430px;
 }
-.benefit-box{
+
+.benefit-box {
     position: relative;
     top: 40%;
 }
-.benefit-title{
+
+.benefit-title {
     width: 50%;
     position: relative;
     left: 25%;
 }
-.benefit-ttl{
+
+.benefit-ttl {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
@@ -692,7 +788,8 @@ body{
     color: #FFFFFF;
     margin-bottom: 50px;
 }
-.benefit-sudttl{
+
+.benefit-sudttl {
     font-family: Dosis;
     font-style: normal;
     font-weight: 500;
@@ -702,12 +799,13 @@ body{
     color: #FFFFFF;
     margin-bottom: 50px;
 }
-.benefit-icons{
+
+.benefit-icons {
     display: flex;
     justify-content: center;
-
 }
-.benefit-icons__items{
+
+.benefit-icons__items {
     width: 12%;
     height: 12%;
     margin: 30px;
@@ -717,15 +815,18 @@ body{
     transition: 1s;
     cursor: pointer;
 }
-.benefit-icons__items:hover{
+
+.benefit-icons__items:hover {
     transform: scale(1.2);
     box-shadow: 0px 6px 20px rgb(0, 0, 0);
 }
-.benefit-foto{
+
+.benefit-foto {
     width: 80%;
     margin: 20px 25px 0;
 }
-.benefit-text{
+
+.benefit-text {
     font-family: Dosis;
     font-style: normal;
     font-weight: bold;
@@ -734,35 +835,42 @@ body{
     text-align: center;
     color: #222A3F;
 }
-.test-drive{
+
+.test-drive {
+    width: 100%;
+    height: 500px;
     position: relative;
     left: 20%;
 }
-.test-drive-ttl{
+
+.test-drive-ttl {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
-    font-size: 180px;
+    font-size: 150px;
     line-height: 90%;
     text-transform: uppercase;
     color: #2F73F6;
 }
-.test-drive-subttl{
+
+.test-drive-subttl {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
-    font-size: 90px;
+    font-size: 70px;
     line-height: 90%;
-    text-transform: uppercase;    
-    color: #2F73F6;   
+    text-transform: uppercase;
+    color: #2F73F6;
 }
-.test-drive-text{
+
+.test-drive-text {
     width: 30%;
     position: relative;
-    left: 30%;
+    left: 40%;
     top: -100px;
 }
-.test-drive-txt{
+
+.test-drive-txt {
     font-family: Dosis;
     font-style: normal;
     font-weight: 500;
@@ -770,20 +878,24 @@ body{
     line-height: 155%;
     color: #222A3F;
 }
-.test-drive-button{
+
+.test-drive-button {
     position: relative;
     left: 25%;
 }
-.test-drive-bttn{
+
+.test-drive-bttn {
     color: #363078;
     background: #FFFFFF;
     border-radius: 40px;
 }
-.test-drive-bttn:hover{
+
+.test-drive-bttn:hover {
     color: #FFFFFF;
     background: #363078;
 }
-.test-drive-bttn-txt{
+
+.test-drive-bttn-txt {
     font-family: Dosis;
     font-style: normal;
     font-weight: 600;
@@ -794,43 +906,47 @@ body{
     top: -17px;
     margin: 10px;
 }
-.test-drive-foto{
+
+.test-drive-foto {
     margin: 10px;
 }
-.bonus{
-    background: url(./foto/fon/bonus.png)no-repeat;
-    width: 100%;
-    height: 1900px;
-}
-.bonus-box{
+
+.bonus {
     position: relative;
     left: 10%;
-    top: 10%;
     width: 80%;
-    height: 25%;
+    height: 10px;
+}
+
+.bonus-box {
+    height: 500px;
+    position: relative;
+    top: 100px;
     background: white;
     box-shadow: 0px 60px 100px rgba(0, 0, 0, 0.383);
     border-radius: 30px;
 }
-.bonus-box-title{
-    display: flex;  
-    position: relative; 
+
+.bonus-box-title {
+    display: flex;
+    position: relative;
     left: 10%;
     top: 17%;
     width: 80%;
-  
 }
-.bonus-ttl{
+
+.bonus-ttl {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
     font-size: 104px;
     line-height: 100%;
     text-transform: uppercase;
-    color: #2A2FA3; 
-    margin-right: 70px; 
+    color: #2A2FA3;
+    margin-right: 70px;
 }
-.bonus-subttl{
+
+.bonus-subttl {
     font-family: Dosis;
     font-style: normal;
     font-weight: 600;
@@ -839,14 +955,16 @@ body{
     color: #222A3F;
     margin-top: 50px;
 }
-.bonus-box-touch{
+
+.bonus-box-touch {
     display: flex;
     position: relative;
     top: 30%;
     left: 20%;
     width: 100%;
 }
-.bonus-input{
+
+.bonus-input {
     font-family: Dosis;
     font-style: normal;
     font-weight: 500;
@@ -855,19 +973,22 @@ body{
     color: #9594AA;
     width: 55%;
 }
-.bonus-input__item{
+
+.bonus-input__item {
     padding: 30px;
     width: 40%;
     border: none;
     border-bottom: 2px solid #F2F4F9;
 }
-.bonus-button{
+
+.bonus-button {
     background: linear-gradient(97.95deg, #1F5DEA 14.71%, #5C16CE 90.23%);
     border-radius: 40px;
     width: 20%;
-    height:23%;
+    height: 23%;
 }
-.bonus-btn{
+
+.bonus-btn {
     font-family: Dosis;
     font-style: normal;
     font-weight: 600;
@@ -878,18 +999,27 @@ body{
     position: relative;
     top: -23px;
 }
-.bonus-arrow{
+
+.bonus-arrow {
     width: 30%;
     position: relative;
     left: 9%;
 }
-.developments-title{
+
+.developments {
+    background: url(./foto/fon/bonus.png)no-repeat;
+    width: 100%;
+    height: 2300px;
+}
+
+.developments-title {
     width: 50%;
     position: relative;
-    top: -1150px;
+    top: 29%;
     left: 25%;
 }
-.developments-ttl{
+
+.developments-ttl {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
@@ -900,7 +1030,8 @@ body{
     color: #FFFFFF;
     margin-bottom: 50px;
 }
-.developments-subttl{
+
+.developments-subttl {
     font-family: Dosis;
     font-style: normal;
     font-weight: 500;
@@ -909,15 +1040,16 @@ body{
     text-align: center;
     color: #FFFFFF;
 }
-.developments-box{
+
+.developments-box {
     display: flex;
     position: relative;
-    top: -1100px;
+    top: 32%;
     left: 10%;
     width: 90%;
-    
 }
-.developments-box-centre{
+
+.developments-box-centre {
     display: flex;
     background: white;
     border-radius: 50px;
@@ -925,22 +1057,26 @@ body{
     width: 75%;
     height: 550px;
 }
-.developments-arrow{
+
+.developments-arrow {
     width: 5%;
     height: 5%;
     position: relative;
     top: 250px;
 }
-.developments-foto{
+
+.developments-foto {
     width: 90%;
     border-radius: 35px;
 }
-.developments-box-text{
+
+.developments-box-text {
     width: 60%;
     height: 70%;
     padding-right: 10px;
 }
-.developments-box-txt{
+
+.developments-box-txt {
     font-family: Dosis;
     font-style: normal;
     font-weight: 600;
@@ -949,7 +1085,8 @@ body{
     text-align: right;
     color: #9594AA;
 }
-.developments-box-ttl{
+
+.developments-box-ttl {
     font-family: Dosis;
     font-style: normal;
     font-weight: 600;
@@ -957,9 +1094,9 @@ body{
     line-height: 120%;
     color: #222A3F;
     margin-bottom: 15px;
-
 }
-.developments-box-subttl{
+
+.developments-box-subttl {
     font-family: Dosis;
     font-style: normal;
     font-weight: 500;
@@ -967,24 +1104,26 @@ body{
     line-height: 155%;
     color: #222A3F;
 }
-.developments-box-icons{
+
+.developments-box-icons {
     display: flex;
     justify-content: space-between;
 }
-.feedback{
-    background: url(./foto/fon/contact.png)no-repeat ;
+
+.feedback {
+    background: url(./foto/fon/contact.png)no-repeat;
     width: 100%;
     height: 900px;
-    position: relative;
-    top: -700px;
 }
-.feedback-box{
+
+.feedback-box {
     position: relative;
     left: 15%;
     top: -100px;
     display: flex;
 }
-.feedback-form{
+
+.feedback-form {
     background: #FFFFFF;
     box-shadow: 0px 18px 60px rgba(61, 70, 118, 0.1);
     border-radius: 60px;
@@ -992,7 +1131,8 @@ body{
     height: 40%;
     padding: 50px;
 }
-.feedback-form-title{
+
+.feedback-form-title {
     font-family: Dosis;
     font-style: normal;
     font-weight: 600;
@@ -1003,24 +1143,27 @@ body{
     width: 40%;
     padding: 50px 100px 0px;
 }
-.feedback-input{
+
+.feedback-input {
     text-align: left;
     padding: 50px;
     padding-top: 0;
-
 }
+
 .feedback-input-name,
 .feedback-input-number,
-.feedback-input-messege{
+.feedback-input-messege {
     border: none;
     border-bottom: 2px solid #F2F4F9;
-    width:100%;
-    padding: 50px 0 20px ;
+    width: 100%;
+    padding: 50px 0 20px;
 }
-.feedback-input-messege{
+
+.feedback-input-messege {
     padding-bottom: 150px;
 }
-.feedback-button{
+
+.feedback-button {
     width: 70%;
     height: 72px;
     background: linear-gradient(97.95deg, #1F5DEA 14.71%, #5C16CE 90.23%);
@@ -1036,21 +1179,24 @@ body{
     position: relative;
     left: 15%;
 }
-.feedback-btn{
+
+.feedback-btn {
     position: relative;
     top: -15px;
     width: 50%;
 }
-.feedback-arrow{
+
+.feedback-arrow {
     position: relative;
     left: 10%;
 }
-.feedback-inform{
+
+.feedback-inform {
     width: 30%;
     margin: 80px;
-
 }
-.feedback-inform-title{
+
+.feedback-inform-title {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
@@ -1060,7 +1206,8 @@ body{
     color: #2A2FA3;
     margin-bottom: 40px;
 }
-.feedback-inform-subtitle{
+
+.feedback-inform-subtitle {
     font-family: Dosis;
     font-style: normal;
     font-weight: 500;
@@ -1068,8 +1215,9 @@ body{
     line-height: 155%;
     color: #222A3F;
 }
+
 .feedback-inform-support,
-.feedback-inform-number{
+.feedback-inform-number {
     font-family: Dosis;
     font-style: normal;
     font-weight: 600;
@@ -1078,31 +1226,33 @@ body{
     color: #363078;
     margin: 30px 0;
 }
-.feedback-inform-txt{
+
+.feedback-inform-txt {
     position: relative;
     left: 5%;
     top: -60px;
 }
-.footer{
+
+.footer {
     background: url(./foto/fon/footer.png)no-repeat;
     width: 100%;
-    height: 500px;
-    position: relative;
-    top: -900px;
+    height: 700px;
 }
-.ftr-menu{
+
+.ftr-menu {
     text-align: center;
 }
-.ftr-menu-nav{
+
+.ftr-menu-nav {
     position: relative;
     top: 300px;
     left: 25%;
     cursor: pointer;
     width: 70%;
-
 }
-.ftr-menu__item{
-    color:  #E8E6F8;
+
+.ftr-menu__item {
+    color: #E8E6F8;
     font-family: Dosis;
     font-size: 16px;
     text-transform: uppercase;
@@ -1112,22 +1262,25 @@ body{
     margin-left: 2%;
     text-decoration: none;
 }
-.ftr-link{
+
+.ftr-link {
     position: relative;
     top: 365px;
-    
 }
-.ftr-link-foto{
+
+.ftr-link-foto {
     margin-left: 5%;
     transition: 0.5s;
     cursor: pointer;
     border-radius: 50%;
 }
-.ftr-link-foto:hover{
+
+.ftr-link-foto:hover {
     transform: scale(1.2);
     box-shadow: 1px 1px 15px black;
 }
-.ftr-copyright{
+
+.ftr-copyright {
     font-family: Dosis;
     font-style: normal;
     font-weight: 500;
@@ -1138,287 +1291,288 @@ body{
     top: 350px;
     left: -25%;
 }
-@media(min-width: 1201px) and (max-width: 1440px){
-    .logo{
+
+@media(min-width: 1201px) and (max-width: 1440px) {
+    .logo {
         margin: 20px 100px;
     }
-    .header-menu-nav{
+    .header-menu-nav {
         width: 80%;
     }
-    .floors-box-foto_arrowprev{
+    .header-title {
+        width: 45%;
+    }
+    .header-ttl {
+        font-size: 90px;
+    }
+    .advantages-title {
+        font-size: 70px;
+    }
+    .floors-box-foto_arrowprev {
         top: -15%;
     }
-    .floors-box-foto_arrownext{
+    .floors-box-foto_arrownext {
         top: -15%;
     }
-    .price-arrow{
+    .price-arrow {
         left: 5%;
     }
-    .warranty-block-title{
+    .warranty-block-ttl {
+        font-size: 90px;
+    }
+    .warranty-box-subttl {
+        font-size: 70px;
+    }
+    .warranty-block-title {
         left: 20%;
         width: 40%;
     }
-    .warranty-block-text{
+    .warranty-block-text {
         left: 60%;
         top: -100px;
     }
-    .test-drive-text{
+    .test-drive-ttl {
+        font-size: 80px;
+    }
+    .test-drive-text {
         width: 30%;
         left: 37%;
+        top: 15%;
     }
-    .bonus-box-touch{
+    .test-drive-button {
+        width: 60%;
+        top: 25%;
+    }
+    .bonus-box-touch {
         left: 15%;
     }
-    .bonus-input__item{
+    .bonus-input__item {
         width: 30%;
     }
-    .bonus-arrow{
+    .bonus-button {
+        width: 20%;
+        height: 15%;
+    }
+    .bonus-btn {
+        font-size: 15px;
+        top: -23px;
+    }
+    .bonus-arrow {
+        left: 1, 5%;
+    }
+    .feedback-inform-title {
+        font-size: 60px;
+    }
+    .feedback-button {
+        width: 75%;
+    }
+    .feedback-arrow {
         left: 1%;
     }
-    .feedback-arrow{
-        left: 1%;
-    }
-    
 }
-@media(min-width: 993px) and (max-width: 1200px){
-    .logo{
+
+@media(min-width: 993px) and (max-width: 1200px) {
+    .logo {
         margin: 20px 100px;
     }
-    .header-logo{
+    .header-logo {
         width: 60%;
         height: 20%;
     }
-    
-    .header-menu-nav{
+    .header-menu-nav {
         width: 50%;
         margin-left: 15%;
     }
-    .header-ttl{
-        font-size: 100px;
+    .header-ttl {
+        font-size: 70px;
     }
-    .floors-box-foto_arrowprev{
+    .header-title {
+        width: 45%;
+    }
+    .advantages-title {
+        font-size: 70px;
+    }
+    .floors-box-foto_arrowprev {
         top: -15%;
     }
-    .floors-box-foto_arrownext{
+    .floors-box-foto_arrownext {
         top: -15%;
     }
-    .price-btn{
+    .price-btn {
         font-size: small;
     }
-    .price-arrow{
+    .price-arrow {
         left: 5%;
     }
-    .warranty-block-title{
+    .warranty-block-title {
         left: 15%;
         width: 40%;
     }
-    .warranty-block-ttl{
-        font-size:100px;
-    }
-    .warranty-box-subttl{
+    .warranty-block-ttl {
         font-size: 90px;
     }
-
-    .warranty-block-text{
+    .warranty-box-subttl {
+        font-size: 70px;
+    }
+    .warranty-block-text {
         left: 60%;
         top: -100px;
     }
-    .package-title{
+    .warranty-block-icon {
+        width: 40%;
+    }
+    .package-title {
         left: 10%;
     }
-    .package-foto{
+    .package-foto {
         width: 45%;
     }
-    .package-foto__item{
+    .package-foto__item {
         width: 100%;
     }
-    .test-drive-ttl{
-        font-size: 90px;
+    .test-drive-ttl {
+        font-size: 80px;
     }
-    .test-drive-subttl{
-        font-size: 70px;
+    .test-drive-subttl {
+        font-size: 60px;
+        width: 40%;
     }
-    .test-drive-text{
+    .test-drive-text {
         width: 30%;
         left: 37%;
     }
-    .bonus-box-touch{
+    .bonus-box-touch {
         left: 15%;
     }
-    .bonus-input__item{
+    .bonus-input__item {
         width: 30%;
     }
     .bonus-btn,
-    .feedback-btn{
+    .feedback-btn {
         font-size: small;
     }
-    .bonus-arrow{
+    .bonus-arrow {
         left: 1%;
     }
-    .feedback-box{
+    .developments-ttl {
+        font-size: 60px;
+    }
+    .feedback-box {
         left: 2%;
     }
-    .feedback-arrow{
+    .feedback-button {
+        width: 80%;
+    }
+    .feedback-arrow {
         left: 1%;
     }
-    .feedback-inform{ 
-    width: 70%;
+    .feedback-inform {
+        width: 70%;
+    }
+    .feedback-inform-title {
+        font-size: 70px;
     }
 }
-@media(min-width: 769px) and (max-width: 992px){
-    .logo{
+
+@media(min-width: 769px) and (max-width: 992px) {
+    .logo {
         margin: 20px 100px;
     }
-    .header-logo{
-        width: 90%;
+    .header-logo {
+        width: 60%;
         height: 20%;
     }
-    .header-menu-nav{
+    .header-menu-nav {
         width: 50%;
         margin-left: 15%;
     }
-    .header-ttl{
-        font-size: 80px;
+    .header-ttl {
+        font-size: 70px;
     }
-    .advantages-title{
-        font-size: 80px;
+    .header-title {
+        width: 45%;
     }
-    .advantages-box-icons{
-        width: 120%;
+    .advantages-title {
+        font-size: 70px;
     }
-    .floors-btn{
-        margin: 2%;
-    }
-    .floors-box-foto{
-        margin: 0;
-    }
-    .floors-box-text{
-        width: 50%;
-    }
-    .floors-text_h3{
-        margin:10px 0px 20px; ;
-    }
-    .floors-text_p{
-        font-size: smaller;
-    }
-    .floors-box-foto_arrowprev{
+    .floors-box-foto_arrowprev {
         top: -15%;
     }
-    .floors-box-foto_arrownext{
+    .floors-box-foto_arrownext {
         top: -15%;
     }
-    .price-foto{
-        height: 80%;
+    .price-btn {
+        font-size: small;
     }
-    .price__item{
-        font-size: 40px;
-    }
-    .price-btn{
-        font-size: 10px;
-    }
-    .price-arrow{
+    .price-arrow {
         left: 5%;
-        width: 30%;
     }
-    .warranty-block-title{
+    .warranty-block-title {
         left: 15%;
         width: 40%;
     }
-    .warranty-block-ttl{
-        font-size:100px;
-    }
-    .warranty-box-subttl{
+    .warranty-block-ttl {
         font-size: 90px;
     }
-    .warranty-block-text{
+    .warranty-box-subttl {
+        font-size: 70px;
+    }
+    .warranty-block-text {
         left: 60%;
         top: -100px;
     }
-    .package-title{
+    .warranty-block-icon {
+        width: 40%;
+    }
+    .package-title {
         left: 10%;
     }
-    .package-subttl{
-        width: 70%;
-    }
-    .package-foto{
+    .package-foto {
         width: 45%;
     }
-    .package-foto__item{
+    .package-foto__item {
         width: 100%;
     }
-    .test-drive-ttl{
-        font-size: 70px;
+    .test-drive-ttl {
+        font-size: 80px;
     }
-    .test-drive-subttl{
+    .test-drive-subttl {
         font-size: 60px;
+        width: 40%;
     }
-    .test-drive-text{
+    .test-drive-text {
         width: 30%;
         left: 37%;
     }
-    .bonus-box-touch{
+    .bonus-box-touch {
         left: 15%;
     }
-    .bonus-input__item{
+    .bonus-input__item {
         width: 30%;
     }
-    .bonus-btn{
-        font-size: 9px;
+    .bonus-btn,
+    .feedback-btn {
+        font-size: small;
     }
-    .bonus-arrow{
+    .bonus-arrow {
         left: 1%;
     }
-    .feedback-box{
-        display: inline;
+    .developments-ttl {
+        font-size: 60px;
     }
-    .feedback-form{
-        position: relative;
-        top: -200px;
-        height: 70%;
-        width: 60%;
+    .feedback-box {
+        left: 2%;
     }
-    .feedback-form-title{
-        width: 80%;
-        margin: 5% 10%;
-        padding: 1%;
-    }
-    .feedback-inform{
-        position: relative;
-        top: -250px;
-        left: -10%;
+    .feedback-button {
         width: 80%;
     }
-    .feedback-inform-title{
-        font-size: 80px;
-        margin-bottom: 10px;
-    }
-    .feedback-inform-support,
-    .feedback-inform-number{
-        margin: 10px;
-    }
-    .feedback-inform-number{
-        position: relative;
-        top: -50px;
-    }
-    .feedback-arrow{
-        left: 5%;
-    }
-    .ftr-menu-nav{
-        width: 40%;
-        margin-left: 1%;
-        left: 50%;
-    }
-    .ftr-menu__item{
-        top: 40%;
-    }
-    .ftr-link{
-        width: 40%;
-        position: relative;
-        left: 40%;
-        top: 300px ;
-    }
-    .ftr-copyright{
-        top: 300px;
+    .feedback-arrow {
         left: 1%;
+    }
+    .feedback-inform {
+        width: 70%;
+    }
+    .feedback-inform-title {
+        font-size: 70px;
     }
 }
