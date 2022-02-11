@@ -1,0 +1,19 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+@font-face {
+    font-family: Lifehack-Sans;
+    src: url(../Fonts/Lifehack-Sans-Regular.ttf);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+/* .main {
+    max-width: 80%;
+    margin: 0 auto;
+} */

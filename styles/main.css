@@ -1,0 +1,1487 @@
+main {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.block-advantage-games {
+    height: 2072px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-image: url(../Images/Advantages/bgimg.png);
+}
+
+.content-advantage {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left-advantage {
+    width: 50%;
+}
+
+.text-advantage {
+    width: 60%;
+    padding: 160px 180px 0px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.bold {
+    color: black;
+    font-size: larger;
+}
+
+.tittle-advantage {
+    font-family: 'Lifehack-Sans', sans-serif;
+    color: #2A2FA3;
+    font-size: 120px;
+    font-weight: 800;
+    line-height: 104px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.subtittle-advantage {
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222A3F;
+    margin-top: 40px;
+}
+
+.right-advantage {
+    display: flex;
+    width: 50%;
+    position: relative;
+}
+
+.photo-advantage {
+    position: absolute;
+    top: 0;
+    height: 286px;
+    width: 286px;
+    border-radius: 28px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30px, 90px;
+    box-shadow: 1px 6px 20px rgb(61 70 118);
+}
+
+.horse {
+    top: 6%;
+    left: 1%;
+    background-image: url(../Images/Advantages/horse.svg);
+}
+
+.touch {
+    top: 25%;
+    left: 50%;
+    background-image: url(../Images/Advantages/img.png);
+}
+
+.brain {
+    top: 62%;
+    left: -9%;
+    background-image: url("../Images/Advantages/img\ \(1\).png");
+}
+
+.crown {
+    top: 81%;
+    left: 39%;
+    background-image: url("../Images/Advantages/img\ \(2\).png");
+    z-index: 1;
+    background-color: white;
+}
+
+.blocks-text {
+    text-align: center;
+    margin: 220px 44px 0;
+    font-family: "Dosis";    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #222A3F;
+    position: absolute;
+}
+
+.info {
+    position: absolute;
+    top: 17px;
+    left: 230px;
+}
+
+.content-games {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.right-games {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-games {
+    width: 50%;
+    padding: 508px 309px;
+}
+
+.text-games {
+    padding: 230px 180px;
+}
+
+.tittle-numer {
+    font-family: 'Lifehack-Sans', sans-serif;
+    color: white;
+    font-size: 200px;
+    line-height: 180px;
+    font-weight: 600;
+}
+
+.tittle-games {
+    font-family: 'Lifehack-Sans', sans-serif;
+    color: white;
+    font-size: 115px;
+    line-height: 104px;
+    font-weight: 800;
+}
+
+.subtittle-games {
+    font-family: "Dosis";
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 40px;
+    width: 503px;
+    height: 62px;
+}
+
+.b-games {
+    background-image: url(../Images/Games/eye.png);
+    background-position-x: 25px;
+    background-position-y: 25px;
+    background-repeat: no-repeat;
+    height: 72px;
+    width: 267px;
+    border-radius: 40px;
+    border: none;
+    font-family: "Dosis";
+    color: #363078;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    text-indent: 40px;
+}
+
+.games-blocks {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 70px;
+    height: 312px;
+    position: relative;
+    right: -85px;
+    top: -250px;
+}
+
+.window {
+    display: flex;
+    box-shadow: 1px 6px 20px rgb(61 70 118);
+    border-radius: 30px;
+    background: #FFFFFF;
+    height: 312px;
+    width: 340px;
+    position: relative;
+}
+
+.window-bath {
+    display: flex;
+    border-radius: 30px;
+    background: #FFFFFF;
+    height: 344px;
+    width: 367px;    
+    margin-top: -10px;
+    box-shadow: 1px 6px 20px rgb(61 70 118);
+}
+
+.game-picture {
+    display: flex;
+    flex-direction: column;
+    left: 40px;
+    top: -130px;
+    position: absolute;
+}
+
+.game-picture-bath {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: -145px;
+}
+
+.game-picture-bath img {
+    border-radius: 20px;
+}
+
+.game-picture img {
+    border-radius: 20px;
+}
+
+.game-icon {
+    border-radius: 10px;
+    background-color: #363078;
+    padding: 13px 20px;
+    position: absolute;
+    margin: 15px;
+    color: white;
+}
+
+.labels {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.g-label {
+    background: #FFFFFF;
+    border: 2px solid #F2F4F9;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 14px;
+    margin-top: 23px;
+    font-family: "Dosis";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #9594AA;
+}
+
+.g-label:hover {
+    border: 2px solid #2F8FFF;
+    color: #2F8FFF;
+}
+
+.bottom-buttons {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 400px;
+    height: 100px;
+    top: -130px;
+    left: -395px;
+}
+
+.b-left {
+    height: 64px;
+    width: 100px;
+    border-radius: 32px;
+    background-color: white;
+    background-image: url(../Images/Games/prev.svg);
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 22px;
+    box-shadow: 1px 6px 20px rgb(61 70 118);
+}
+
+.b-right {
+    height: 64px;
+    width: 100px;
+    border-radius: 32px;
+    background-color: white;
+    background-image: url(../Images/Games/next.png);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 22px;
+    box-shadow: 1px 6px 20px rgb(61 70 118);
+}
+
+.floors {
+    display: flex;
+    width: 100%;
+    height: 1170px;
+    margin: 0 auto;
+    background-image: url(../Images/Floors/bg&polygons.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.b-floors {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.f-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 249px;
+    margin-top: 100px;
+}
+
+.f-tittle {
+    font-family: 'Lifehack-Sans', sans-serif;
+    font-size: 104px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 104px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2A2FA3;
+    text-transform: uppercase;
+}
+
+.f-subtittle {
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #222A3F;
+    margin-top: 40px;
+}
+
+.f-nav {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.f-menu {
+    height: 72px;
+    width: 252px;    
+    border-radius: 40px;
+    position: relative;
+    box-shadow: 1px 6px 20px rgb(61 70 118);
+}
+
+.f-menu_text {
+    color: #9A98AF;
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+    margin-inline: 45px;
+}
+
+.f-menu_text:hover {
+    color: #2F8FFF;
+}
+
+.f-menu_text:hover {
+    color: #2F8FFF;
+}
+
+.ceiling {
+    display: flex;
+    justify-content: space-between;
+    margin: 63px auto 0;
+    width: 86%;
+}
+
+.f-picture {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.f-main-picture {
+    position: relative;
+}
+
+.f-minor-picture {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.f-buttons {
+    height: 48px;
+    width: 111px;
+    left: 495px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+    top: 374px;
+    position: absolute;
+}
+
+.f-elipse {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-content {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 55px;
+}
+
+.ceiling-tittle {
+    font-family: "Dosis";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+}
+
+.ceiling-pg {
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 471px;
+    height: 308px;
+}
+
+.l-left li:before {
+    content: '✓';
+    color: #2F8FFF;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.l-left li {
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222A3F;
+}
+
+.f-list {
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    width: 85%;
+    margin-top: 70px;
+}
+
+.price {
+    width: 100%;
+    height: 1474px;
+    background: url(../Images/Prices/bg&polygons\ -\ 4_price.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-price {
+    margin-top: 490px;
+}
+
+.bottom-price {
+    display: flex;
+}
+
+.price-tittle {
+    font-family: 'Lifehack-Sans', sans-serif;
+    font-size: 104px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 104px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.price-subtittle {
+    font-family: "Dosis", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    width: 496px;
+    margin-top: 43px;
+}
+
+.bottom-price {
+    display: flex;
+    width: 52%;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.box-price {
+    height: 804px;
+    width: 460px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 6px 20px rgb(61 70 118);
+}
+
+.label {
+    font-family: "Dosis";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.label-price {
+    font-family: "Dosis";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 86px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #311F65;
+}
+
+.price-button {
+    height: 72px;
+    width: 260px;
+    border: none;
+    border-radius: 40px;
+    font-family: "Dosis";
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-indent: 45px;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(97.95deg, #1F5DEA 14.71%, #5C16CE 90.23%);
+}
+
+.years {
+    background-image: url(../Images/warranty/Vector\ 18.png);
+    position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 413px;
+    height: 825px;
+}
+
+.years-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -90px;
+}
+
+.left-years {
+    width: 60%;
+}
+
+.big-tittle {
+    font-family: 'Lifehack-Sans', sans-serif;
+    font-size: 200px;
+    font-weight: 800;
+    line-height: 180px;
+    letter-spacing: 0em;
+    color: #2F73F6;
+    display: flex;
+    justify-content: center;
+}
+
+.small-tittle {
+    font-family: 'Lifehack-Sans', sans-serif;
+    font-size: 120px;
+    font-weight: 800;
+    line-height: 100px;
+    letter-spacing: 0em;
+    color: #2F73F6;
+    display: flex;
+    justify-content: center;
+}
+
+.years-window {
+    position: relative;
+}
+
+.tools {
+    position: absolute;
+    top: 75px;
+    left: 36px;
+}
+
+.hands {
+    position: absolute;
+    top: -136px;
+    left: 383px;
+}
+
+.box {
+    width: 286px;
+    height: 286px;
+    box-shadow: 1px 6px 20px rgb(61 70 118);
+    background: #ffffff;
+    position: relative;
+    border-radius: 28px;
+}
+
+.more {
+    position: absolute;
+    left: 82%;
+    top: 22px;
+}
+
+.polygon {
+    position: absolute;
+    left: 65px;
+    top: 41px;
+}
+
+.box-text {
+    position: absolute;
+    top: 210px;
+    margin-inline: 45px;
+    font-family: "Dosis";
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #222A3F;
+}
+
+.right-years {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+}
+
+.years-tittle {
+    font-family: "Dosis";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222A3F;
+}
+
+.years-pg {
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.package-get {
+    background-image: url(../Images/get/bg&polygons\ -\ 7_what\ do\ you\ get_.png);
+    height: 2044px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.package {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.package-top {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.package-tittle {
+    font-family: 'Lifehack-Sans', sans-serif;
+    font-size: 104px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 104px;
+    letter-spacing: 0em;
+    color: #2A2FA3;
+    text-transform: uppercase;
+}
+
+.package-pg {
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 80%;
+}
+
+.package-bottom {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.package-bottom-left {
+    width: 38%;
+    margin-top: 67px;
+}
+
+.package-bottom-right {
+    width: 50%;
+    margin-top: 98px;
+}
+
+.package-list li {
+    position: relative;
+    left: 60px;
+}
+
+.package-list li:before {
+    content: url(../Images/package/icon.png);
+    position: absolute;
+    top: 9px;
+    left: -55px;
+}
+
+.package-list li:hover {
+    color: #2F73F6;
+}
+
+.package-list-text {
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    color: #222A3F;
+}
+
+.get-box {
+    display: flex;
+    justify-content: space-between;
+    width: 69%;
+    margin: 85px auto 0;
+    position: relative;
+}
+
+.get-box-text {
+    font-family: "Dosis";
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #222A3F;
+    position: absolute;
+    top: 208px;
+    margin-inline: 81px;
+}
+
+.polygon {
+    position: absolute;
+    top: 33px;
+    left: 65px;
+}
+
+.get {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 331px;
+}
+
+.get-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 237px;
+
+}
+
+.get-tittle {
+    font-family: 'Lifehack-Sans', sans-serif;
+    font-size: 117px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 104px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.get-subtittle {
+    width: 80%;
+    margin-top: 43px;
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.days {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.days-left {
+    width: 43%;
+}
+
+.days-tittle {
+    font-family: 'Lifehack-Sans', sans-serif;
+    font-size: 190px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 162px;
+    letter-spacing: 0em;
+    color: #2F73F6;
+}
+
+.days-subtittle {
+    font-family: 'Lifehack-Sans', sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 81px;
+    letter-spacing: 0em;
+    color: #2F73F6;
+    text-transform: uppercase;
+}
+
+.days-right {
+    width: 55%;
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222A3F;
+    margin-top: 130px;
+}
+
+.days-button {
+    margin-top: 90px;
+    height: 72px;
+    width: 448px;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 1px 6px 20px rgb(61 70 118);
+    border: none;
+    position: relative;
+}
+
+.days-button-text {
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #363078;
+    position: absolute;    
+    top: 25px;
+    left: 75px;
+}
+
+.days-eye {
+    top: 24px;
+    left: 21px;
+    position: absolute;
+}
+
+.bonus-developments {
+    width: 100%;
+    height: 1895px;
+    background-image: url(../Images/Developments/bg&polygons\ -\ 9_bonus\ 10_other\ developments.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -41px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bonus-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.bonus {
+    display: flex;
+    flex-direction: column;
+    height: 358px;
+    width: 90%;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 6px 20px rgb(61 70 118);
+    align-items: center;
+}
+
+.bonus-top {
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+    margin-top: 74px;
+    height: 150px;
+}
+
+.bonus-tittle {
+    font-family: 'Lifehack-Sans', sans-serif;
+    color: #2A2FA3;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 104px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 20%;
+}
+
+.bonus-subtittle {
+    font-family: "Dosis";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222A3F;
+    width: 80%;
+    margin-top: 58px;
+}
+
+.bonus-bottom {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.bonus-button {
+    height: 72px;
+    width: 269px;
+    border-radius: 40px;
+    background: linear-gradient(97.95deg, #1F5DEA 14.71%, #5C16CE 90.23%);
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 30px;
+    left: 965px;
+}
+
+.bonus-button-text {
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+    text-transform: uppercase;
+    text-indent: 30px;
+}
+
+.bonus-fields {
+    display: flex;
+    border: none;
+}
+
+.bonus-fields input {
+    height: 37px;
+    width: 335px;
+    border-radius: nullpx;
+    border: none;
+    border-bottom: 2px solid #F2F4F9;
+    font-family: "Dosis";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9594AA;
+}
+
+.bonus-fields input:focus {
+    outline: none;
+}
+
+.developments-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 240px;
+}
+
+.development-top {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.devep-tittle {
+    font-family: 'Lifehack-Sans', sans-serif;
+    color: white;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 104px;
+    letter-spacing: 0em;
+}
+
+.divep-subtittle {
+    color: white;
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: absolute;
+    top: 140px;
+}
+
+.development-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 125px;
+    width: 85%;
+}
+
+.development-content {
+    background: white;
+    height: 602px;
+    border-radius: 60px;
+    box-shadow: 1px 6px 20px rgb(61 70 118);
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    align-items: center;
+}
+
+.development-content-left img {
+    max-width: 100%;
+    height: 90%;
+}
+
+.development-button {
+    margin-top: 5px;
+    background: none;
+    border: none;
+}
+
+.development-content-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.development-content-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-around;
+    height: 90%;
+}
+
+.development-content-tittle {
+    color: #222A3F;
+    font-family: "Dosis";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;   
+    top: 80px;
+}
+
+.development-content-subtittle {
+    color: #222A3F;
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;   
+    top: 135px;
+}
+
+.development-number {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.development-content-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;    
+    width: 100%;
+    top: 388px;
+}
+
+.interactive-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-contact {
+    background-image: url(../Images/form/Frame\ 182.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-contact {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+}
+
+.left-contact {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    position: relative;
+    background-color: #FFFFFF;
+    height: 739px;
+    width: 660px;
+    border-radius: 60px;
+    box-shadow: 1px 6px 20px rgb(61 70 118);
+    align-items: center;
+}
+
+.right-contact {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    height: 739px;
+    width: 660px;
+    align-items: center;
+}
+
+.left-contact-tittle {
+    width: 54%;
+    color: #222A3F;
+    font-family: "Dosis";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+}
+
+.contact-fields {
+    position: absolute;
+    top: 210px;
+    left: 100px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact-fields input {
+    height: 37px;
+    /* width: 460px; */
+    border: none;
+    border-bottom: 2px solid #F2F4F9;
+    font-family: "Dosis";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9594AA;
+    background: none;
+}
+
+.contact-fields textarea {
+    height: 140px;
+    width: 460px;
+    border: none;
+    border-bottom: 2px solid #F2F4F9;
+    font-family: "Dosis";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9594AA;
+    background: none;
+}
+
+.contact-fields input:focus {
+    outline: none;
+}
+
+.contact-fields textarea:focus {
+    outline: none;
+}
+
+.contact-button {
+    height: 72px;
+    width: 269px;
+    border-radius: 40px;
+    background: linear-gradient(97.95deg, #1F5DEA 14.71%, #5C16CE 90.23%);
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 600px;
+}
+
+.contact-button-text {
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+    text-transform: uppercase;
+    text-indent: 30px;
+}
+
+.rigt-contact-tittle {
+    font-family: 'Lifehack-Sans', sans-serif;
+    color: #2A2FA3;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 104px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    width: 85%;
+}
+
+.rigt-contact-subtittle {
+    width: 85%;
+    color: #222A3F;
+    font-family: "Dosis";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 200px;
+}
+
+.support {
+    width: 85%;
+}
+
+.support-img {
+    position: absolute;
+    top: 300px;
+    left: -10px;
+}
+
+.call-img {
+    position: absolute;
+    top: 400px;
+    left: -10px;
+}
+
+.support-txt {
+    color: #363078;
+    font-family: "Dosis";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 340px;
+    left: 110px;
+}
+
+.call-txt {
+    color: #363078;
+    font-family: "Dosis";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 440px;
+    left: 110px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .text-advantage {
+        width: 60%;
+        padding: 0;
+    }
+
+    .content-advantage {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .brain {
+        top: 67%;
+        left: -16%;
+    }
+
+    .horse {
+        top: 6%;
+        left: 1%;
+    }
+
+    .touch {
+        top: 25%;
+        left: 53%;
+    }
+
+    .crown {
+        top: 87%;
+        left: 36%;
+    }
+
+    .text-games {
+        padding: 224px 0px;
+    }
+
+    .b-floors {
+        width: 100%;
+    }
+
+    .bottom-price {
+        width: 70%;
+    }
+
+    .years-container {
+        width: 90%;
+    }
+
+    .package {
+        width: 100%;
+    }
+
+    .get-box {
+        width: 90%;
+    }
+
+    .days {
+        width: 90%;
+    }
+
+    .development-bottom {
+        width: 95%;
+    }
+
+    .container-contact {
+        width: 90%;
+    }
+}
