@@ -72,10 +72,10 @@ header {
     border-radius: 40px;
     background-color: #2F8FFF;
     border: none;
-    background-image: url(../Images/Floors/next.png);
+    background-image: url(../Images/Header/Group\ 145.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: 0.3px;
+    background-position-x: 272px;
+    background-position-y: 8.3px;
     font-family: "Dosis";
     font-size: 20px;
     font-style: normal;
